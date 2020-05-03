@@ -1,6 +1,7 @@
 import pandas as pd
 
-file = open("results_28-04-2020_17-26-35.txt", "r")
+fileName = 'pancakes'
+file = open(fileName + ".txt", "r")
 cols = ['Number Of Pancakes', 'Gap', 'Problem ID', 'Start state', 'Goal state', 'Initial Heuristic'
     , 'Algorithm', 'Memory', 'Status', 'States Expanded', 'Runtime(seconds)']
 resultsDF = pd.DataFrame()
@@ -48,7 +49,7 @@ for line in file:
                 resDict['Runtime(seconds)'] = float(splittedLine[splittedLine.index('elapsed;') - 1].replace('s', ''))
         resultsDF = resultsDF.append(resDict, ignore_index=True)
 resultsDF = resultsDF[cols]
-resultsDF.to_csv('results.csv')
+resultsDF.to_csv(fileName + '_results.csv')
 
 analysisCols = ['Gap', 'Algorithm', 'Failed(Out Of 100)', 'Mean Expansions', 'Mean Runtime(Seconds)']
 analysisDF = pd.DataFrame()
@@ -77,4 +78,4 @@ for gap in resultsDF['Gap'].unique():
         else:
             MBBDSFailSum = False
 
-analysisDF[analysisCols].to_csv('analysis.csv')
+analysisDF[analysisCols].to_csv(fileName + '_analysis.csv')
