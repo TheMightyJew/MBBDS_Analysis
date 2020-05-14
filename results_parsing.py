@@ -1,6 +1,6 @@
 import pandas as pd
 
-fileName = 'pancakes'
+fileName = 'sub_optimal_results'
 file = open(fileName + ".txt", "r")
 cols = ['Number Of Pancakes', 'Gap', 'Problem ID', 'Start state', 'Goal state', 'Initial Heuristic'
     , 'Algorithm', 'Memory', 'Status', 'States Expanded', 'Runtime(seconds)']
@@ -8,6 +8,7 @@ resultsDF = pd.DataFrame()
 resDict = dict.fromkeys(cols)
 gapStr = 'GAP-0'
 resDict['Problem ID'] = 0
+errorSet = set()
 for line in file:
     line = line.replace('\t', '').replace('\n', '')
     splittedLine = line.replace(gapStr, ' ' + gapStr + ' ').split()
@@ -27,11 +28,17 @@ for line in file:
         resDict['Initial Heuristic'] = float(line[line.index('heuristic') + len('heuristic') + 1:])
     elif gapStr in line:
         resDict['Algorithm'] = splittedLine[splittedLine.index(gapStr) + 1]
+        if gapStr + ' MM' in line:
+            MMsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
         if 'memory' in line:
             if 'MBBDS' in resDict['Algorithm']:
                 memoryStr = 'Memory_percentage_from_MM='
                 resDict['Memory'] = int(splittedLine[splittedLine.index('memory') + 2])
                 resDict['Algorithm'] += '(' + line[line.index(memoryStr) + len(memoryStr):][:4] + ')'
+                if 'length' in line:
+                    MBBDSsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
+                    if MBBDSsolLength != MMsolLength:
+                        errorSet.add('Error in MBBDS|' + str(resDict['Gap']) + '|' + str(resDict['Problem ID']) + ', solution length is ' +  str(MBBDSsolLength) + ' insted MM sol that was ' + str(MMsolLength))
             else:
                 resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
         else:
@@ -48,6 +55,9 @@ for line in file:
             elif 'elapsed;' in splittedLine:
                 resDict['Runtime(seconds)'] = float(splittedLine[splittedLine.index('elapsed;') - 1].replace('s', ''))
         resultsDF = resultsDF.append(resDict, ignore_index=True)
+print('There are ' + str(len(errorSet)) + ' errors')
+for error in errorSet:
+    print(error)
 resultsDF = resultsDF[cols]
 resultsDF.to_csv(fileName + '_results.csv')
 
