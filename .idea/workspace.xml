@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d91ea629-f3a3-4b22-8028-c36c50e30e50" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pancakes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pancakes_analysis.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pancakes_results.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results_parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/results_parsing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +39,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tanyas_code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Coding\Python\MBBDS_Analysis" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Coding\Python\MBBDS_Analysis" />
     </key>
   </component>
@@ -114,6 +111,19 @@
       <workItem from="1589133458884" duration="4429000" />
       <workItem from="1589203925607" duration="3714000" />
       <workItem from="1589355450769" duration="36000" />
+      <workItem from="1589443029504" duration="30000" />
+      <workItem from="1589804165661" duration="1623000" />
+      <workItem from="1589830368183" duration="609000" />
+      <workItem from="1589868490538" duration="347000" />
+      <workItem from="1589907867437" duration="10000" />
+      <workItem from="1590276402473" duration="823000" />
+      <workItem from="1590430614677" duration="1100000" />
+      <workItem from="1590443929283" duration="677000" />
+      <workItem from="1590462451697" duration="426000" />
+      <workItem from="1590540446407" duration="372000" />
+      <workItem from="1590560690863" duration="3055000" />
+      <workItem from="1590592735784" duration="5000" />
+      <workItem from="1591099037833" duration="7568000" />
     </task>
     <task id="LOCAL-00001" summary="analysis">
       <created>1588266401276</created>
@@ -143,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588538127617</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="More clean analysis">
+      <created>1589443044936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589443044936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,17 +206,18 @@
     <MESSAGE value="analysis" />
     <MESSAGE value="fixed mean calculations" />
     <MESSAGE value="using filename" />
-    <option name="LAST_COMMIT_MESSAGE" value="using filename" />
+    <MESSAGE value="More clean analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="More clean analysis" />
   </component>
   <component name="WindowStateProjectService">
     <state x="904" y="125" key="#xdebugger.evaluate" timestamp="1588519167860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="904" y="125" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1588519167860" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1588538126863">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1589443043497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588538126863" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589443043497" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1589355484804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -208,38 +226,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="630" y="307" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1588266415851" />
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1589209066528">
+    <state width="1493" height="88" key="GridCell.Tab.0.bottom" timestamp="1591143153211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
-    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1589209066528">
+    <state width="1493" height="88" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
+    <state width="1493" height="88" key="GridCell.Tab.0.center" timestamp="1591143153211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
-    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1589209066528">
+    <state width="1493" height="88" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
+    <state width="1493" height="88" key="GridCell.Tab.0.left" timestamp="1591143153211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
-    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1589209066528">
+    <state width="1493" height="88" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
+    <state width="1493" height="88" key="GridCell.Tab.0.right" timestamp="1591143153211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
-    <state width="1493" height="167" key="GridCell.Tab.1.bottom" timestamp="1589209066528">
+    <state width="1493" height="88" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
+    <state width="1493" height="282" key="GridCell.Tab.1.bottom" timestamp="1591101902465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
-    <state width="1493" height="167" key="GridCell.Tab.1.center" timestamp="1589209066528">
+    <state width="1493" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591101902465" />
+    <state width="1493" height="282" key="GridCell.Tab.1.center" timestamp="1591101902464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
-    <state width="1493" height="167" key="GridCell.Tab.1.left" timestamp="1589209066528">
+    <state width="1493" height="282" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591101902464" />
+    <state width="1493" height="282" key="GridCell.Tab.1.left" timestamp="1591101902464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
-    <state width="1493" height="167" key="GridCell.Tab.1.right" timestamp="1589209066528">
+    <state width="1493" height="282" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591101902464" />
+    <state width="1493" height="282" key="GridCell.Tab.1.right" timestamp="1591101902464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589209066528" />
+    <state width="1493" height="282" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591101902464" />
     <state x="597" y="135" key="RollbackChangesDialog" timestamp="1588519973283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -248,20 +266,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588503486606" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1588538128870">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1589443046628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588538128870" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1589355450760">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589443046628" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1590592736300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589355450760" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590592736300" />
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1588256538330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1588256538330" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MBBDS_Analysis$results_parsing.coverage" NAME="results_parsing Coverage Results" MODIFIED="1589208926854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MBBDS_Analysis$results_parsing.coverage" NAME="results_parsing Coverage Results" MODIFIED="1591143153206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

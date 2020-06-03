@@ -1,9 +1,10 @@
 import pandas as pd
+import numpy as np
 
-fileName = 'sub_optimal_results'
+fileName = '8-10-Pancake_Gap-8-10.txt'.replace('.txt', '')
 file = open(fileName + ".txt", "r")
 cols = ['Number Of Pancakes', 'Gap', 'Problem ID', 'Start state', 'Goal state', 'Initial Heuristic'
-    , 'Algorithm', 'Memory', 'Status', 'States Expanded', 'Runtime(seconds)']
+    , 'Algorithm', 'Memory', 'Status', 'States Expanded', 'Iterations', 'Runtime(seconds)']
 resultsDF = pd.DataFrame()
 resDict = dict.fromkeys(cols)
 gapStr = 'GAP-0'
@@ -15,7 +16,7 @@ for line in file:
     if 'TestPancakeHard' in line:
         resDict['Number Of Pancakes'] = int(
             splittedLine[splittedLine.index('TestPancakeHard:(Pancakes:') + 1].replace(',', ''))
-        resDict['Gap'] = int(splittedLine[splittedLine.index('Gap:') + 1].replace(')', ''))
+        resDict['Gap'] = int(splittedLine[splittedLine.index('Gap:') + 1].replace(')', '').replace(',', ''))
         gapStr = 'GAP-' + str(resDict['Gap'])
     elif 'Problem' in line:
         problemID = int(splittedLine[splittedLine.index('Problem') + 1])
@@ -28,17 +29,32 @@ for line in file:
         resDict['Initial Heuristic'] = float(line[line.index('heuristic') + len('heuristic') + 1:])
     elif gapStr in line:
         resDict['Algorithm'] = splittedLine[splittedLine.index(gapStr) + 1]
+        if 'MBBDS' in resDict['Algorithm']:
+            resDict['Algorithm'] += splittedLine[splittedLine.index(gapStr) + 2]
+            resDict['Iterations'] = int(splittedLine[splittedLine.index('iterations;') - 1])
+        else:
+            resDict['Iterations'] = 0
         if gapStr + ' MM' in line:
             MMsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
+        if gapStr + ' A* ' in line:
+            AsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
         if 'memory' in line:
-            if 'MBBDS' in resDict['Algorithm']:
+            if 'MBBDS' in resDict['Algorithm'] or '+' in resDict['Algorithm']:
                 memoryStr = 'Memory_percentage_from_MM='
                 resDict['Memory'] = int(splittedLine[splittedLine.index('memory') + 2])
                 resDict['Algorithm'] += '(' + line[line.index(memoryStr) + len(memoryStr):][:4] + ')'
                 if 'length' in line:
-                    MBBDSsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
-                    if MBBDSsolLength != MMsolLength:
-                        errorSet.add('Error in MBBDS|' + str(resDict['Gap']) + '|' + str(resDict['Problem ID']) + ', solution length is ' +  str(MBBDSsolLength) + ' insted MM sol that was ' + str(MMsolLength))
+                    if 'MBBDS' in resDict['Algorithm']:
+                        MBBDSsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
+                        if MBBDSsolLength != MMsolLength:
+                            errorSet.add('Error in MBBDS|' + str(resDict['Gap']) + '|' + str(resDict['Problem ID']) + ', solution length is ' +  str(MBBDSsolLength) + ' insted MM sol that was ' + str(MMsolLength))
+                    elif 'A*+IDA*' in resDict['Algorithm']:
+                        ApIDAsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
+                        if ApIDAsolLength != AsolLength:
+                            errorSet.add('Error in A*+IDA*|' + str(resDict['Gap']) + '|' + str(
+                                resDict['Problem ID']) + ', solution length is ' + str(
+                                ApIDAsolLength) + ' insted A* sol that was ' + str(AsolLength))
+
             else:
                 resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
         else:
@@ -61,13 +77,10 @@ for error in errorSet:
 resultsDF = resultsDF[cols]
 resultsDF.to_csv(fileName + '_results.csv')
 
-analysisCols = ['Gap', 'Algorithm', 'Failed(Out Of 100)', 'Mean Expansions', 'Mean Runtime(Seconds)']
+analysisCols = ['Gap', 'Algorithm', 'Failed(Out Of 100)', 'Mean Expansions', 'Mean Iterations', 'Mean Runtime(Seconds)']
 analysisDF = pd.DataFrame()
 analysisDict = dict.fromkeys(analysisCols)
-import numpy as np
-
-MBBDSFailSum = False
-
+MBBDSFailSum = None
 failedRows = (resultsDF['Status'] == 0)
 for gap in resultsDF['Gap'].unique():
     analysisDict['Gap'] = gap
@@ -76,16 +89,14 @@ for gap in resultsDF['Gap'].unique():
     for algo in resultsDF['Algorithm'].unique():
         analysisDict['Algorithm'] = algo
         algoRows = (resultsDF['Algorithm'] == algo)
-        if MBBDSFailSum and 'MBBDS' in algo:
+        if MBBDSFailSum == algo:
             analysisDict['Failed(Out Of 100)'] += len(resultsDF[gapRows & algoRows & failedRows])
         else:
             analysisDict['Failed(Out Of 100)'] = len(resultsDF[gapRows & algoRows & failedRows])
         analysisDict['Mean Expansions'] = int(np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['States Expanded']))
+        analysisDict['Mean Iterations'] = int(np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Iterations']))
         analysisDict['Mean Runtime(Seconds)'] = round(np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Runtime(seconds)']) ,3)
         analysisDF = analysisDF.append(analysisDict, ignore_index=True)
-        if 'MBBDS' in algo:
-            MBBDSFailSum = True
-        else:
-            MBBDSFailSum = False
+        MBBDSFailSum = algo
 
 analysisDF[analysisCols].to_csv(fileName + '_analysis.csv')
