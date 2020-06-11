@@ -43,10 +43,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Coding\Python\MBBDS_Analysis" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Coding\Python\MBBDS_Analysis" />
     </key>
   </component>
@@ -123,7 +123,13 @@
       <workItem from="1590540446407" duration="372000" />
       <workItem from="1590560690863" duration="3055000" />
       <workItem from="1590592735784" duration="5000" />
-      <workItem from="1591099037833" duration="7568000" />
+      <workItem from="1591099037833" duration="7603000" />
+      <workItem from="1591169483376" duration="52000" />
+      <workItem from="1591182888555" duration="53000" />
+      <workItem from="1591273137221" duration="1241000" />
+      <workItem from="1591430373002" duration="6000" />
+      <workItem from="1591772131020" duration="1999000" />
+      <workItem from="1591863813465" duration="4134000" />
     </task>
     <task id="LOCAL-00001" summary="analysis">
       <created>1588266401276</created>
@@ -160,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589443044936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add parsing for A*+IDA* and added iterations for MBBDS">
+      <created>1591143587769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591143587770</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,17 +220,18 @@
     <MESSAGE value="fixed mean calculations" />
     <MESSAGE value="using filename" />
     <MESSAGE value="More clean analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="More clean analysis" />
+    <MESSAGE value="add parsing for A*+IDA* and added iterations for MBBDS" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parsing for A*+IDA* and added iterations for MBBDS" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="904" y="125" key="#xdebugger.evaluate" timestamp="1588519167860">
+    <state x="26" y="190" width="488" height="582" key="#xdebugger.evaluate" timestamp="1591868991910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="904" y="125" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1588519167860" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1589443043497">
+    <state x="26" y="190" width="488" height="582" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1591868991910" />
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1591143587008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589443043497" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591143587008" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1589355484804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,38 +240,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="630" y="307" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1588266415851" />
-    <state width="1493" height="88" key="GridCell.Tab.0.bottom" timestamp="1591143153211">
+    <state width="1493" height="145" key="GridCell.Tab.0.bottom" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
-    <state width="1493" height="88" key="GridCell.Tab.0.center" timestamp="1591143153211">
+    <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
+    <state width="1493" height="145" key="GridCell.Tab.0.center" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
-    <state width="1493" height="88" key="GridCell.Tab.0.left" timestamp="1591143153211">
+    <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
+    <state width="1493" height="145" key="GridCell.Tab.0.left" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
-    <state width="1493" height="88" key="GridCell.Tab.0.right" timestamp="1591143153211">
+    <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
+    <state width="1493" height="145" key="GridCell.Tab.0.right" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591143153211" />
-    <state width="1493" height="282" key="GridCell.Tab.1.bottom" timestamp="1591101902465">
+    <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
+    <state width="1493" height="145" key="GridCell.Tab.1.bottom" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591101902465" />
-    <state width="1493" height="282" key="GridCell.Tab.1.center" timestamp="1591101902464">
+    <state width="1493" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
+    <state width="1493" height="145" key="GridCell.Tab.1.center" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591101902464" />
-    <state width="1493" height="282" key="GridCell.Tab.1.left" timestamp="1591101902464">
+    <state width="1493" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
+    <state width="1493" height="145" key="GridCell.Tab.1.left" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591101902464" />
-    <state width="1493" height="282" key="GridCell.Tab.1.right" timestamp="1591101902464">
+    <state width="1493" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
+    <state width="1493" height="145" key="GridCell.Tab.1.right" timestamp="1591869048563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591101902464" />
+    <state width="1493" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591869048563" />
     <state x="597" y="135" key="RollbackChangesDialog" timestamp="1588519973283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,20 +280,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588503486606" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1589443046628">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1591143589067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589443046628" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1590592736300">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591143589067" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1591863823976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590592736300" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591863823976" />
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1588256538330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1588256538330" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/results_parsing.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MBBDS_Analysis$results_parsing.coverage" NAME="results_parsing Coverage Results" MODIFIED="1591143153206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MBBDS_Analysis$results_parsing.coverage" NAME="results_parsing Coverage Results" MODIFIED="1591869048556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
