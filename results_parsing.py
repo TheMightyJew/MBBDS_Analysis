@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-fileName = 'results_11-06-2020_12-21-36.txt'.replace('.txt', '')
+fileName = 'results_17-06-2020_11-09-14.txt'.replace('.txt', '')
 file = open(fileName + ".txt", "r")
 cols = ['Number Of Pancakes', 'Gap', 'Problem ID', 'Start state', 'Goal state', 'Initial Heuristic'
     , 'Algorithm', 'Memory', 'Status', 'States Expanded', 'Necessary Expansions', 'Iterations', 'Runtime(seconds)']
@@ -47,28 +47,28 @@ for line in file:
             AsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
         if 'memory' in line:
             if 'MBBDS' in resDict['Algorithm'] or '+' in resDict['Algorithm']:
-                memoryStr = 'Memory_percentage_from_MM='
+                memoryStr = 'Memory_Percentage='
                 resDict['Memory'] = int(splittedLine[splittedLine.index('memory') + 2])
                 resDict['Algorithm'] += '(' + line[line.index(memoryStr) + len(memoryStr):][:4] + ')'
                 if 'length' in line:
                     if 'MBBDS' in resDict['Algorithm']:
                         MBBDSsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
                         if MBBDSsolLength != AsolLength and MBBDSsolLength != MMsolLength:
-                            errorSet.add('Error in MBBDS|' + str(resDict['Gap']) + '|' + str(
+                            errorSet.add((resDict['Problem ID'], 'Error in MBBDS|' + str(resDict['Gap']) + '|' + str(
                                 resDict['Problem ID']) + ', solution length is ' + str(
-                                MBBDSsolLength) + ' insted sol that was ' + str(max(AsolLength, MMsolLength)))
+                                MBBDSsolLength) + ' insted sol that was ' + str(max(AsolLength, MMsolLength))))
                     elif 'A*+IDA*' in resDict['Algorithm']:
                         ApIDAsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
                         if ApIDAsolLength != AsolLength and ApIDAsolLength != MMsolLength:
-                            errorSet.add('Error in A*+IDA*|' + str(resDict['Gap']) + '|' + str(
+                            errorSet.add((resDict['Problem ID'], 'Error in A*+IDA*|' + str(resDict['Gap']) + '|' + str(
                                 resDict['Problem ID']) + ', solution length is ' + str(
-                                ApIDAsolLength) + ' insted sol that was ' + str(max(AsolLength, MMsolLength)))
+                                ApIDAsolLength) + ' insted sol that was ' + str(max(AsolLength, MMsolLength))))
                     elif 'MM+IDMM' in resDict['Algorithm']:
                         MMpIDMMsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
                         if MMpIDMMsolLength != AsolLength and MMpIDMMsolLength != MMsolLength:
-                            errorSet.add('Error in MM+IDMM|' + str(resDict['Gap']) + '|' + str(
+                            errorSet.add((resDict['Problem ID'], 'Error in MM+IDMM|' + str(resDict['Gap']) + '|' + str(
                                 resDict['Problem ID']) + ', solution length is ' + str(
-                                MMpIDMMsolLength) + ' insted sol that was ' + str(max(AsolLength, MMsolLength)))
+                                MMpIDMMsolLength) + ' insted sol that was ' + str(max(AsolLength, MMsolLength))))
 
             else:
                 resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
@@ -90,8 +90,8 @@ for line in file:
                 resDict['Runtime(seconds)'] = float(splittedLine[splittedLine.index('elapsed;') - 1].replace('s', ''))
         resultsDF = resultsDF.append(resDict, ignore_index=True)
 print('There are ' + str(len(errorSet)) + ' errors')
-for error in errorSet:
-    print(error)
+for error in sorted(errorSet, key=lambda er: er[0]):
+    print(error[1])
 resultsDF = resultsDF[cols]
 resultsDF.to_csv(fileName + '_results.csv')
 
