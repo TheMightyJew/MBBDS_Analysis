@@ -1,0 +1,4005 @@
+TestPancakeHard:(Pancakes: 10, Gap: 0, Random: 1, Hard: 0)
+	Problem 1 of 100
+	Start state: 6 5 0 7 3 2 4 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 9 expanded; 5 necessary; using 74 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 14 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 62 expanded; 7 necessary; using 494 states in memory; 0.0002s elapsed
+			Hard-GAP-0 I-MM ; 113 expanded;
+	Problem 2 of 100
+	Start state: 1 7 3 9 5 4 8 2 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 9 expanded; 0 necessary; using 73 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 29 expanded;
+	Problem 3 of 100
+	Start state: 1 8 2 4 6 9 7 5 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 32 expanded; 0 necessary; using 257 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 68 expanded;
+	Problem 4 of 100
+	Start state: 0 7 1 5 4 2 3 8 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 9 expanded; 0 necessary; using 75 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 22 expanded;
+	Problem 5 of 100
+	Start state: 0 2 3 7 4 5 6 9 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 7 expanded; 0 necessary; using 58 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 7 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 13 expanded; 0 necessary; using 106 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 27 expanded;
+	Problem 6 of 100
+	Start state: 3 1 2 7 4 0 8 9 5 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 14 expanded; 4 necessary; using 114 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 18 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 43 expanded; 9 necessary; using 340 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 81 expanded;
+	Problem 7 of 100
+	Start state: 4 9 3 6 0 5 2 1 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 16 expanded; 6 necessary; using 128 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 22 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 19 expanded; 15 necessary; using 154 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 51 expanded;
+	Problem 8 of 100
+	Start state: 6 0 3 9 5 7 1 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 11; 52 expanded; 48 necessary; using 413 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 100 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 11; 66 expanded; 44 necessary; using 523 states in memory; 0.0002s elapsed
+			Hard-GAP-0 I-MM ; 153 expanded;
+	Problem 9 of 100
+	Start state: 3 7 2 8 9 5 1 0 4 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 8; 14 expanded; 0 necessary; using 114 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 14 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 11 expanded; 0 necessary; using 86 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 26 expanded;
+	Problem 10 of 100
+	Start state: 3 9 7 1 2 8 6 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 22 expanded; 4 necessary; using 176 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 26 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 56 expanded; 12 necessary; using 436 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 111 expanded;
+	Problem 11 of 100
+	Start state: 3 8 0 1 9 6 2 5 4 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 25 expanded; 4 necessary; using 201 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 29 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 60 expanded; 8 necessary; using 469 states in memory; 0.0002s elapsed
+			Hard-GAP-0 I-MM ; 125 expanded;
+	Problem 12 of 100
+	Start state: 7 3 0 4 9 8 2 5 1 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 31 expanded; 10 necessary; using 249 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 41 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 91 expanded; 25 necessary; using 704 states in memory; 0.0003s elapsed
+			Hard-GAP-0 I-MM ; 166 expanded;
+	Problem 13 of 100
+	Start state: 0 8 6 1 3 9 7 2 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 26 expanded; 22 necessary; using 208 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 48 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 21 expanded; 21 necessary; using 139 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 50 expanded;
+	Problem 14 of 100
+	Start state: 6 8 7 2 1 9 3 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 8; 28 expanded; 23 necessary; using 219 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 52 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 41 expanded; 41 necessary; using 227 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 88 expanded;
+	Problem 15 of 100
+	Start state: 6 4 2 1 8 9 3 5 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 19 expanded; 16 necessary; using 154 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 35 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 30 expanded; 20 necessary; using 240 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 67 expanded;
+	Problem 16 of 100
+	Start state: 0 2 5 9 6 4 1 7 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 12 expanded; 0 necessary; using 98 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 12 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 19 expanded; 0 necessary; using 156 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 44 expanded;
+	Problem 17 of 100
+	Start state: 1 7 3 9 8 5 6 2 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 30 expanded; 11 necessary; using 240 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 41 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 127 expanded; 16 necessary; using 840 states in memory; 0.0003s elapsed
+			Hard-GAP-0 I-MM ; 247 expanded;
+	Problem 18 of 100
+	Start state: 5 1 9 2 7 6 8 4 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 10 expanded; 6 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 16 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 15 expanded; 15 necessary; using 124 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 44 expanded;
+	Problem 19 of 100
+	Start state: 0 1 8 5 6 9 2 4 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 8 expanded; 1 necessary; using 66 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 34 expanded; 2 necessary; using 272 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 67 expanded;
+	Problem 20 of 100
+	Start state: 2 0 5 4 1 3 6 9 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 14 expanded; 11 necessary; using 112 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 25 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 32 expanded; 16 necessary; using 251 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 65 expanded;
+	Problem 21 of 100
+	Start state: 2 0 4 6 3 5 7 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 22 expanded; 0 necessary; using 176 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 56 expanded;
+	Problem 22 of 100
+	Start state: 0 6 2 8 9 1 7 5 4 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 12 expanded; 8 necessary; using 98 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 20 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 11 expanded; 8 necessary; using 87 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 23 expanded;
+	Problem 23 of 100
+	Start state: 2 3 9 8 6 0 7 4 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 19 expanded; 8 necessary; using 154 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 27 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 26 expanded; 18 necessary; using 205 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 60 expanded;
+	Problem 24 of 100
+	Start state: 1 6 2 4 0 9 7 5 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 10 expanded; 0 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 10 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 29 expanded; 0 necessary; using 231 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 65 expanded;
+	Problem 25 of 100
+	Start state: 0 7 5 9 2 1 4 6 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 74 expanded; 1 necessary; using 569 states in memory; 0.0002s elapsed
+			GAP-0 I-A* ; 75 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 141 expanded; 10 necessary; using 1096 states in memory; 0.0004s elapsed
+			Hard-GAP-0 I-MM ; 266 expanded;
+	Problem 26 of 100
+	Start state: 7 4 8 3 0 6 1 9 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 33 expanded; 0 necessary; using 267 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 74 expanded;
+	Problem 27 of 100
+	Start state: 8 7 9 4 1 2 5 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 41 expanded; 3 necessary; using 316 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 44 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 50 expanded; 14 necessary; using 398 states in memory; 0.0002s elapsed
+			Hard-GAP-0 I-MM ; 103 expanded;
+	Problem 28 of 100
+	Start state: 4 2 7 9 1 6 5 0 8 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 18 expanded; 14 necessary; using 146 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 32 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 38 expanded; 28 necessary; using 306 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 73 expanded;
+	Problem 29 of 100
+	Start state: 6 5 3 1 4 0 9 7 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 22 expanded; 0 necessary; using 175 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 51 expanded;
+	Problem 30 of 100
+	Start state: 8 1 3 4 7 0 2 5 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 14 expanded; 0 necessary; using 114 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 38 expanded;
+	Problem 31 of 100
+	Start state: 1 4 6 5 8 9 7 3 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 12 expanded; 4 necessary; using 98 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 16 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 27 expanded; 10 necessary; using 215 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 53 expanded;
+	Problem 32 of 100
+	Start state: 6 9 1 7 0 8 5 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 7 expanded; 0 necessary; using 58 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 7 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 15 expanded; 0 necessary; using 117 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 32 expanded;
+	Problem 33 of 100
+	Start state: 6 4 2 0 9 7 8 3 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 19 expanded; 0 necessary; using 154 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 19 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 16 expanded; 0 necessary; using 127 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 45 expanded;
+	Problem 34 of 100
+	Start state: 2 4 1 6 9 8 0 7 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 10 expanded; 0 necessary; using 83 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 30 expanded;
+	Problem 35 of 100
+	Start state: 2 8 0 7 6 4 5 9 1 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 17 expanded; 15 necessary; using 138 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 32 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 22 expanded; 16 necessary; using 174 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 55 expanded;
+	Problem 36 of 100
+	Start state: 7 9 2 4 3 5 8 6 0 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 15 expanded; 11 necessary; using 120 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 26 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 144 expanded; 14 necessary; using 831 states in memory; 0.0004s elapsed
+			Hard-GAP-0 I-MM ; 281 expanded;
+	Problem 37 of 100
+	Start state: 3 2 8 6 5 1 9 7 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 11 expanded; 6 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 17 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 20 expanded; 11 necessary; using 161 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 44 expanded;
+	Problem 38 of 100
+	Start state: 1 2 3 9 8 0 4 6 5 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 8; 37 expanded; 35 necessary; using 294 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 76 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 55 expanded; 55 necessary; using 250 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 106 expanded;
+	Problem 39 of 100
+	Start state: 8 9 1 4 7 3 6 0 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 12 expanded; 0 necessary; using 98 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 12 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 11 expanded; 0 necessary; using 87 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 32 expanded;
+	Problem 40 of 100
+	Start state: 2 7 3 9 0 5 1 8 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 11; 37 expanded; 34 necessary; using 294 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 71 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 11; 117 expanded; 47 necessary; using 923 states in memory; 0.0003s elapsed
+			Hard-GAP-0 I-MM ; 222 expanded;
+	Problem 41 of 100
+	Start state: 9 1 8 6 7 0 2 3 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 14 expanded; 11 necessary; using 114 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 25 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 17 expanded; 13 necessary; using 136 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 34 expanded;
+	Problem 42 of 100
+	Start state: 9 4 5 1 6 0 2 3 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 14 expanded; 3 necessary; using 113 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 17 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 14 expanded; 10 necessary; using 110 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 29 expanded;
+	Problem 43 of 100
+	Start state: 9 8 2 3 6 5 7 0 1 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 6; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 6; 7 expanded; 0 necessary; using 58 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 13 expanded;
+	Problem 44 of 100
+	Start state: 1 6 7 0 5 2 3 4 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 8; 42 expanded; 38 necessary; using 328 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 83 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 56 expanded; 56 necessary; using 294 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 110 expanded;
+	Problem 45 of 100
+	Start state: 3 9 2 8 1 4 7 5 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 9 expanded; 0 necessary; using 72 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 29 expanded;
+	Problem 46 of 100
+	Start state: 5 0 7 2 4 9 3 1 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 38 expanded; 0 necessary; using 308 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 82 expanded;
+	Problem 47 of 100
+	Start state: 9 2 6 7 8 3 1 0 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 8; 47 expanded; 45 necessary; using 364 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 96 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 51 expanded; 51 necessary; using 302 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 99 expanded;
+	Problem 48 of 100
+	Start state: 0 9 8 1 6 4 7 5 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 18 expanded; 10 necessary; using 146 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 28 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 62 expanded; 9 necessary; using 483 states in memory; 0.0002s elapsed
+			Hard-GAP-0 I-MM ; 121 expanded;
+	Problem 49 of 100
+	Start state: 2 3 6 8 1 9 5 4 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 8; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 10 expanded; 0 necessary; using 82 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 24 expanded;
+	Problem 50 of 100
+	Start state: 8 6 7 5 4 3 9 1 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 8; 31 expanded; 29 necessary; using 245 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 62 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 46 expanded; 46 necessary; using 250 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 96 expanded;
+	Problem 51 of 100
+	Start state: 2 5 4 6 0 7 9 3 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 9 expanded; 0 necessary; using 69 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 29 expanded;
+	Problem 52 of 100
+	Start state: 9 6 7 8 0 1 3 5 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 9; 95 expanded; 93 necessary; using 687 states in memory; 0.0003s elapsed
+			GAP-0 I-A* ; 198 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 79 expanded; 77 necessary; using 610 states in memory; 0.0002s elapsed
+			Hard-GAP-0 I-MM ; 211 expanded;
+	Problem 53 of 100
+	Start state: 5 1 4 2 8 7 0 6 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 8; 10 expanded; 0 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 10 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 18 expanded; 0 necessary; using 142 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 35 expanded;
+	Problem 54 of 100
+	Start state: 1 6 0 7 5 8 9 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 7 expanded; 0 necessary; using 58 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 7 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 11 expanded; 0 necessary; using 85 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 25 expanded;
+	Problem 55 of 100
+	Start state: 7 4 2 9 3 1 8 6 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 10 expanded; 0 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 10 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 29 expanded; 0 necessary; using 230 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 64 expanded;
+	Problem 56 of 100
+	Start state: 0 5 3 9 1 6 2 8 7 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 23 expanded; 21 necessary; using 186 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 44 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 24 expanded; 24 necessary; using 179 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 54 expanded;
+	Problem 57 of 100
+	Start state: 3 9 2 7 4 8 6 1 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 19 expanded; 0 necessary; using 154 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 19 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 21 expanded; 0 necessary; using 171 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 52 expanded;
+	Problem 58 of 100
+	Start state: 1 3 9 0 8 6 4 5 7 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 9 expanded; 0 necessary; using 72 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 29 expanded;
+	Problem 59 of 100
+	Start state: 1 9 8 5 4 2 0 6 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 8; 8 expanded; 0 necessary; using 66 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 8 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 15 expanded; 0 necessary; using 120 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 31 expanded;
+	Problem 60 of 100
+	Start state: 1 6 4 0 8 7 3 9 5 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 29 expanded; 24 necessary; using 230 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 53 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 182 expanded; 25 necessary; using 1398 states in memory; 0.0006s elapsed
+			Hard-GAP-0 I-MM ; 321 expanded;
+	Problem 61 of 100
+	Start state: 6 9 3 0 4 7 1 5 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 18 expanded; 0 necessary; using 146 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 18 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 34 expanded; 0 necessary; using 270 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 78 expanded;
+	Problem 62 of 100
+	Start state: 1 8 9 3 4 5 6 2 0 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 7; 19 expanded; 6 necessary; using 151 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 25 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 15 expanded; 11 necessary; using 122 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 33 expanded;
+	Problem 63 of 100
+	Start state: 2 9 7 4 1 0 8 6 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 19 expanded; 0 necessary; using 153 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 19 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 13 expanded; 0 necessary; using 104 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 36 expanded;
+	Problem 64 of 100
+	Start state: 3 4 5 0 1 9 7 6 8 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 7; 7 expanded; 5 necessary; using 58 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 12 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 10 expanded; 5 necessary; using 81 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 22 expanded;
+	Problem 65 of 100
+	Start state: 7 1 8 0 4 9 2 6 5 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 31 expanded; 0 necessary; using 246 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 31 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 31 expanded; 0 necessary; using 246 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 72 expanded;
+	Problem 66 of 100
+	Start state: 9 1 2 6 5 0 7 8 3 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 7; 10 expanded; 3 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 13 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 12 expanded; 8 necessary; using 94 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 27 expanded;
+	Problem 67 of 100
+	Start state: 2 3 5 8 4 1 9 7 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 11 expanded; 0 necessary; using 88 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 32 expanded;
+	Problem 68 of 100
+	Start state: 9 5 1 4 8 2 7 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 37 expanded; 0 necessary; using 296 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 37 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 32 expanded; 0 necessary; using 255 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 68 expanded;
+	Problem 69 of 100
+	Start state: 7 3 9 2 0 5 6 1 4 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 12 expanded; 7 necessary; using 98 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 19 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 39 expanded; 21 necessary; using 315 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 76 expanded;
+	Problem 70 of 100
+	Start state: 2 8 4 1 6 9 3 7 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 11; 34 expanded; 32 necessary; using 270 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 66 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 11; 49 expanded; 45 necessary; using 389 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 140 expanded;
+	Problem 71 of 100
+	Start state: 6 3 2 9 5 7 4 1 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 8; 14 expanded; 0 necessary; using 114 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 14 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 16 expanded; 0 necessary; using 131 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 33 expanded;
+	Problem 72 of 100
+	Start state: 6 9 7 3 2 0 4 1 5 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 24 expanded; 22 necessary; using 194 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 46 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 32 expanded; 28 necessary; using 258 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 73 expanded;
+	Problem 73 of 100
+	Start state: 3 9 5 7 0 4 1 2 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 25 expanded; 11 necessary; using 201 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 36 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 19 expanded; 19 necessary; using 116 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 49 expanded;
+	Problem 74 of 100
+	Start state: 6 8 4 1 5 2 7 3 9 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 12 expanded; 0 necessary; using 98 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 12 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 27 expanded; 0 necessary; using 218 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 62 expanded;
+	Problem 75 of 100
+	Start state: 9 0 6 5 8 3 4 2 7 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 14 expanded; 12 necessary; using 114 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 26 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 18 expanded; 10 necessary; using 145 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 47 expanded;
+	Problem 76 of 100
+	Start state: 1 0 5 7 4 6 3 9 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 19 expanded; 0 necessary; using 136 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 44 expanded;
+	Problem 77 of 100
+	Start state: 9 8 6 5 3 7 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 8 expanded; 0 necessary; using 66 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 8 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 8 expanded; 0 necessary; using 68 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 22 expanded;
+	Problem 78 of 100
+	Start state: 1 0 8 3 5 6 7 4 9 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 7 expanded; 0 necessary; using 58 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 7 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 7 expanded; 0 necessary; using 54 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 19 expanded;
+	Problem 79 of 100
+	Start state: 1 8 7 9 6 0 4 5 2 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 7 expanded; 0 necessary; using 58 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 7 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 8 expanded; 0 necessary; using 68 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 22 expanded;
+	Problem 80 of 100
+	Start state: 8 4 9 2 0 5 1 3 7 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 35 expanded; 0 necessary; using 281 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 82 expanded;
+	Problem 81 of 100
+	Start state: 7 4 0 8 9 3 2 5 6 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 24 expanded; 3 necessary; using 194 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 27 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 56 expanded; 7 necessary; using 443 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 96 expanded;
+	Problem 82 of 100
+	Start state: 0 7 6 1 9 3 5 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 232 expanded; 11 necessary; using 1675 states in memory; 0.0007s elapsed
+			GAP-0 I-A* ; 243 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 136 expanded; 8 necessary; using 1041 states in memory; 0.0004s elapsed
+			Hard-GAP-0 I-MM ; 256 expanded;
+	Problem 83 of 100
+	Start state: 0 2 3 8 9 5 1 7 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 11 expanded; 5 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 16 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 51 expanded; 9 necessary; using 405 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 89 expanded;
+	Problem 84 of 100
+	Start state: 0 3 5 1 7 6 8 2 9 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 10; 20 expanded; 10 necessary; using 162 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 30 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 125 expanded; 15 necessary; using 959 states in memory; 0.0003s elapsed
+			Hard-GAP-0 I-MM ; 241 expanded;
+	Problem 85 of 100
+	Start state: 5 6 9 2 0 8 4 7 3 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 11 expanded; 0 necessary; using 90 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 11 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 19 expanded; 0 necessary; using 150 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 51 expanded;
+	Problem 86 of 100
+	Start state: 9 8 2 5 4 0 1 6 7 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-0 A* found path length 7; 10 expanded; 5 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 15 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 36 expanded; 8 necessary; using 242 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 67 expanded;
+	Problem 87 of 100
+	Start state: 8 4 9 7 0 5 1 2 3 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 8; 10 expanded; 0 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 10 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 14 expanded; 0 necessary; using 110 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 30 expanded;
+	Problem 88 of 100
+	Start state: 1 8 5 6 7 2 4 9 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 24 expanded; 20 necessary; using 194 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 44 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 46 expanded; 25 necessary; using 367 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 86 expanded;
+	Problem 89 of 100
+	Start state: 3 1 5 2 6 7 4 0 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 51 expanded; 7 necessary; using 400 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 58 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 32 expanded; 12 necessary; using 253 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 67 expanded;
+	Problem 90 of 100
+	Start state: 4 8 2 5 9 7 1 6 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 10 expanded; 0 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 10 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 30 expanded; 0 necessary; using 239 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 66 expanded;
+	Problem 91 of 100
+	Start state: 9 2 3 1 8 6 7 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 9; 68 expanded; 66 necessary; using 541 states in memory; 0.0002s elapsed
+			GAP-0 I-A* ; 141 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 125 expanded; 74 necessary; using 980 states in memory; 0.0003s elapsed
+			Hard-GAP-0 I-MM ; 248 expanded;
+	Problem 92 of 100
+	Start state: 7 5 8 9 4 3 1 0 6 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 11 expanded; 0 necessary; using 91 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 27 expanded;
+	Problem 93 of 100
+	Start state: 0 3 6 8 5 4 7 2 1 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 9 expanded; 1 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 10 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 33 expanded; 6 necessary; using 261 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 62 expanded;
+	Problem 94 of 100
+	Start state: 1 9 3 6 0 2 8 7 4 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-0 A* found path length 9; 27 expanded; 8 necessary; using 216 states in memory; 0.0001s elapsed
+			GAP-0 I-A* ; 35 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 16 expanded; 14 necessary; using 130 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 47 expanded;
+	Problem 95 of 100
+	Start state: 4 5 0 2 3 9 1 6 8 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 14 expanded; 1 necessary; using 114 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 15 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 66 expanded; 6 necessary; using 517 states in memory; 0.0002s elapsed
+			Hard-GAP-0 I-MM ; 121 expanded;
+	Problem 96 of 100
+	Start state: 4 1 3 6 9 2 7 5 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 10
+		_A*_
+			GAP-0 A* found path length 10; 17 expanded; 0 necessary; using 138 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 17 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 10; 27 expanded; 0 necessary; using 217 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 62 expanded;
+	Problem 97 of 100
+	Start state: 0 6 9 2 7 3 8 5 4 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 14 expanded; 0 necessary; using 109 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 36 expanded;
+	Problem 98 of 100
+	Start state: 6 4 0 2 8 1 7 5 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-0 A* found path length 9; 17 expanded; 0 necessary; using 138 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 17 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 9; 12 expanded; 0 necessary; using 100 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 35 expanded;
+	Problem 99 of 100
+	Start state: 9 4 1 0 2 6 7 8 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 8; 13 expanded; 4 necessary; using 106 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 17 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 8; 20 expanded; 8 necessary; using 163 states in memory; 0.0001s elapsed
+			Hard-GAP-0 I-MM ; 35 expanded;
+	Problem 100 of 100
+	Start state: 3 8 7 9 6 5 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-0 A* found path length 7; 9 expanded; 0 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-0 I-A* ; 9 expanded;
+		_MM_
+			Hard-GAP-0 MM found path length 7; 9 expanded; 0 necessary; using 72 states in memory; 0.0000s elapsed
+			Hard-GAP-0 I-MM ; 24 expanded;
+TestPancakeHard:(Pancakes: 10, Gap: 1, Random: 1, Hard: 0)
+	Problem 1 of 100
+	Start state: 6 5 0 7 3 2 4 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 206 expanded; 205 necessary; using 1566 states in memory; 0.0006s elapsed
+			GAP-1 I-A* ; 434 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 159 expanded; 159 necessary; using 1081 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 256 expanded;
+	Problem 2 of 100
+	Start state: 1 7 3 9 5 4 8 2 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 9; 244 expanded; 6 necessary; using 1807 states in memory; 0.0007s elapsed
+			GAP-1 I-A* ; 250 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 245 expanded; 72 necessary; using 1890 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 481 expanded;
+	Problem 3 of 100
+	Start state: 1 8 2 4 6 9 7 5 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 356 expanded; 356 necessary; using 2519 states in memory; 0.0011s elapsed
+			GAP-1 I-A* ; 729 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 304 expanded; 304 necessary; using 1360 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 536 expanded;
+	Problem 4 of 100
+	Start state: 0 7 1 5 4 2 3 8 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 7; 24 expanded; 24 necessary; using 194 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 48 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 46 expanded; 26 necessary; using 369 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 82 expanded;
+	Problem 5 of 100
+	Start state: 0 2 3 7 4 5 6 9 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 7; 20 expanded; 20 necessary; using 162 states in memory; 0.0000s elapsed
+			GAP-1 I-A* ; 40 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 39 expanded; 26 necessary; using 314 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 77 expanded;
+	Problem 6 of 100
+	Start state: 3 1 2 7 4 0 8 9 5 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 266 expanded; 266 necessary; using 1923 states in memory; 0.0006s elapsed
+			GAP-1 I-A* ; 575 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 246 expanded; 246 necessary; using 648 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 362 expanded;
+	Problem 7 of 100
+	Start state: 4 9 3 6 0 5 2 1 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 659 expanded; 657 necessary; using 4568 states in memory; 0.0020s elapsed
+			GAP-1 I-A* ; 1388 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 550 expanded; 413 necessary; using 4116 states in memory; 0.0014s elapsed
+			Hard-GAP-1 I-MM ; 1065 expanded;
+	Problem 8 of 100
+	Start state: 6 0 3 9 5 7 1 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 11; 4404 expanded; 4404 necessary; using 26237 states in memory; 0.0136s elapsed
+			GAP-1 I-A* ; 9223 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 11; 1789 expanded; 1768 necessary; using 12598 states in memory; 0.0049s elapsed
+			Hard-GAP-1 I-MM ; 4356 expanded;
+	Problem 9 of 100
+	Start state: 3 7 2 8 9 5 1 0 4 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 8; 12 expanded; 12 necessary; using 98 states in memory; 0.0000s elapsed
+			GAP-1 I-A* ; 24 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 45 expanded; 45 necessary; using 293 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 84 expanded;
+	Problem 10 of 100
+	Start state: 3 9 7 1 2 8 6 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 543 expanded; 221 necessary; using 3802 states in memory; 0.0012s elapsed
+			GAP-1 I-A* ; 767 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 287 expanded; 249 necessary; using 2195 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 641 expanded;
+	Problem 11 of 100
+	Start state: 3 8 0 1 9 6 2 5 4 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 121 expanded; 120 necessary; using 915 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 245 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 292 expanded; 237 necessary; using 2247 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 627 expanded;
+	Problem 12 of 100
+	Start state: 7 3 0 4 9 8 2 5 1 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 10; 1180 expanded; 1179 necessary; using 7776 states in memory; 0.0027s elapsed
+			GAP-1 I-A* ; 2439 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 1172 expanded; 1172 necessary; using 5362 states in memory; 0.0025s elapsed
+			Hard-GAP-1 I-MM ; 1826 expanded;
+	Problem 13 of 100
+	Start state: 0 8 6 1 3 9 7 2 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 1064 expanded; 1063 necessary; using 7220 states in memory; 0.0024s elapsed
+			GAP-1 I-A* ; 2203 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 836 expanded; 836 necessary; using 3194 states in memory; 0.0017s elapsed
+			Hard-GAP-1 I-MM ; 1379 expanded;
+	Problem 14 of 100
+	Start state: 6 8 7 2 1 9 3 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 337 expanded; 335 necessary; using 2334 states in memory; 0.0008s elapsed
+			GAP-1 I-A* ; 704 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 391 expanded; 391 necessary; using 1665 states in memory; 0.0008s elapsed
+			Hard-GAP-1 I-MM ; 533 expanded;
+	Problem 15 of 100
+	Start state: 6 4 2 1 8 9 3 5 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 324 expanded; 321 necessary; using 2322 states in memory; 0.0007s elapsed
+			GAP-1 I-A* ; 675 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 306 expanded; 284 necessary; using 2346 states in memory; 0.0008s elapsed
+			Hard-GAP-1 I-MM ; 684 expanded;
+	Problem 16 of 100
+	Start state: 0 2 5 9 6 4 1 7 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-1 A* found path length 10; 174 expanded; 174 necessary; using 1345 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 348 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 163 expanded; 163 necessary; using 1117 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 328 expanded;
+	Problem 17 of 100
+	Start state: 1 7 3 9 8 5 6 2 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 456 expanded; 456 necessary; using 3253 states in memory; 0.0010s elapsed
+			GAP-1 I-A* ; 963 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 674 expanded; 411 necessary; using 4967 states in memory; 0.0016s elapsed
+			Hard-GAP-1 I-MM ; 1146 expanded;
+	Problem 18 of 100
+	Start state: 5 1 9 2 7 6 8 4 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 234 expanded; 233 necessary; using 1703 states in memory; 0.0005s elapsed
+			GAP-1 I-A* ; 476 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 275 expanded; 260 necessary; using 2122 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 631 expanded;
+	Problem 19 of 100
+	Start state: 0 1 8 5 6 9 2 4 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 8; 420 expanded; 28 necessary; using 3058 states in memory; 0.0010s elapsed
+			GAP-1 I-A* ; 448 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 265 expanded; 41 necessary; using 2066 states in memory; 0.0006s elapsed
+			Hard-GAP-1 I-MM ; 393 expanded;
+	Problem 20 of 100
+	Start state: 2 0 5 4 1 3 6 9 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 633 expanded; 633 necessary; using 4382 states in memory; 0.0014s elapsed
+			GAP-1 I-A* ; 1335 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 366 expanded; 346 necessary; using 2758 states in memory; 0.0009s elapsed
+			Hard-GAP-1 I-MM ; 843 expanded;
+	Problem 21 of 100
+	Start state: 2 0 4 6 3 5 7 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 190 expanded; 190 necessary; using 1372 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 389 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 177 expanded; 128 necessary; using 1364 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 367 expanded;
+	Problem 22 of 100
+	Start state: 0 6 2 8 9 1 7 5 4 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 214 expanded; 212 necessary; using 1565 states in memory; 0.0005s elapsed
+			GAP-1 I-A* ; 446 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 185 expanded; 185 necessary; using 951 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 288 expanded;
+	Problem 23 of 100
+	Start state: 2 3 9 8 6 0 7 4 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 631 expanded; 631 necessary; using 4305 states in memory; 0.0014s elapsed
+			GAP-1 I-A* ; 1331 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 297 expanded; 257 necessary; using 2100 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 648 expanded;
+	Problem 24 of 100
+	Start state: 1 6 2 4 0 9 7 5 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 319 expanded; 317 necessary; using 2264 states in memory; 0.0007s elapsed
+			GAP-1 I-A* ; 651 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 310 expanded; 310 necessary; using 1400 states in memory; 0.0006s elapsed
+			Hard-GAP-1 I-MM ; 546 expanded;
+	Problem 25 of 100
+	Start state: 0 7 5 9 2 1 4 6 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 1058 expanded; 1056 necessary; using 7304 states in memory; 0.0024s elapsed
+			GAP-1 I-A* ; 2185 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 848 expanded; 848 necessary; using 4230 states in memory; 0.0019s elapsed
+			Hard-GAP-1 I-MM ; 1381 expanded;
+	Problem 26 of 100
+	Start state: 7 4 8 3 0 6 1 9 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 376 expanded; 374 necessary; using 2746 states in memory; 0.0010s elapsed
+			GAP-1 I-A* ; 763 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 347 expanded; 347 necessary; using 1623 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 612 expanded;
+	Problem 27 of 100
+	Start state: 8 7 9 4 1 2 5 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 686 expanded; 684 necessary; using 4716 states in memory; 0.0016s elapsed
+			GAP-1 I-A* ; 1448 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 326 expanded; 266 necessary; using 2488 states in memory; 0.0008s elapsed
+			Hard-GAP-1 I-MM ; 670 expanded;
+	Problem 28 of 100
+	Start state: 4 2 7 9 1 6 5 0 8 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 10; 1501 expanded; 1497 necessary; using 9695 states in memory; 0.0035s elapsed
+			GAP-1 I-A* ; 3147 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 1185 expanded; 1185 necessary; using 5174 states in memory; 0.0024s elapsed
+			Hard-GAP-1 I-MM ; 1843 expanded;
+	Problem 29 of 100
+	Start state: 6 5 3 1 4 0 9 7 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 236 expanded; 234 necessary; using 1706 states in memory; 0.0005s elapsed
+			GAP-1 I-A* ; 485 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 228 expanded; 114 necessary; using 1724 states in memory; 0.0005s elapsed
+			Hard-GAP-1 I-MM ; 346 expanded;
+	Problem 30 of 100
+	Start state: 8 1 3 4 7 0 2 5 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 204 expanded; 202 necessary; using 1484 states in memory; 0.0005s elapsed
+			GAP-1 I-A* ; 423 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 140 expanded; 126 necessary; using 1099 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 333 expanded;
+	Problem 31 of 100
+	Start state: 1 4 6 5 8 9 7 3 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 52 expanded; 52 necessary; using 403 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 105 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 153 expanded; 153 necessary; using 606 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 238 expanded;
+	Problem 32 of 100
+	Start state: 6 9 1 7 0 8 5 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 7; 56 expanded; 56 necessary; using 422 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 116 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 81 expanded; 51 necessary; using 638 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 134 expanded;
+	Problem 33 of 100
+	Start state: 6 4 2 0 9 7 8 3 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 165 expanded; 165 necessary; using 1238 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 338 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 132 expanded; 132 necessary; using 1026 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 338 expanded;
+	Problem 34 of 100
+	Start state: 2 4 1 6 9 8 0 7 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 191 expanded; 191 necessary; using 1382 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 402 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 172 expanded; 143 necessary; using 1331 states in memory; 0.0005s elapsed
+			Hard-GAP-1 I-MM ; 379 expanded;
+	Problem 35 of 100
+	Start state: 2 8 0 7 6 4 5 9 1 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 681 expanded; 679 necessary; using 4634 states in memory; 0.0015s elapsed
+			GAP-1 I-A* ; 1454 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 540 expanded; 407 necessary; using 4016 states in memory; 0.0013s elapsed
+			Hard-GAP-1 I-MM ; 1034 expanded;
+	Problem 36 of 100
+	Start state: 7 9 2 4 3 5 8 6 0 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 151 expanded; 151 necessary; using 1126 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 313 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 346 expanded; 257 necessary; using 2649 states in memory; 0.0008s elapsed
+			Hard-GAP-1 I-MM ; 685 expanded;
+	Problem 37 of 100
+	Start state: 3 2 8 6 5 1 9 7 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 584 expanded; 583 necessary; using 4059 states in memory; 0.0013s elapsed
+			GAP-1 I-A* ; 1220 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 276 expanded; 259 necessary; using 2114 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 639 expanded;
+	Problem 38 of 100
+	Start state: 1 2 3 9 8 0 4 6 5 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-1 A* found path length 8; 612 expanded; 611 necessary; using 4077 states in memory; 0.0013s elapsed
+			GAP-1 I-A* ; 1337 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 373 expanded; 373 necessary; using 2049 states in memory; 0.0008s elapsed
+			Hard-GAP-1 I-MM ; 513 expanded;
+	Problem 39 of 100
+	Start state: 8 9 1 4 7 3 6 0 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 143 expanded; 142 necessary; using 1073 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 295 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 84 expanded; 65 necessary; using 659 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 186 expanded;
+	Problem 40 of 100
+	Start state: 2 7 3 9 0 5 1 8 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 11; 4093 expanded; 4093 necessary; using 24756 states in memory; 0.0122s elapsed
+			GAP-1 I-A* ; 8600 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 11; 2148 expanded; 1963 necessary; using 14979 states in memory; 0.0053s elapsed
+			Hard-GAP-1 I-MM ; 4878 expanded;
+	Problem 41 of 100
+	Start state: 9 1 8 6 7 0 2 3 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 298 expanded; 298 necessary; using 2185 states in memory; 0.0007s elapsed
+			GAP-1 I-A* ; 641 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 170 expanded; 170 necessary; using 1096 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 260 expanded;
+	Problem 42 of 100
+	Start state: 9 4 5 1 6 0 2 3 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 281 expanded; 281 necessary; using 2035 states in memory; 0.0007s elapsed
+			GAP-1 I-A* ; 597 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 182 expanded; 182 necessary; using 1068 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 278 expanded;
+	Problem 43 of 100
+	Start state: 9 8 2 3 6 5 7 0 1 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 6; 9 expanded; 9 necessary; using 74 states in memory; 0.0000s elapsed
+			GAP-1 I-A* ; 18 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 6; 18 expanded; 4 necessary; using 146 states in memory; 0.0000s elapsed
+			Hard-GAP-1 I-MM ; 29 expanded;
+	Problem 44 of 100
+	Start state: 1 6 7 0 5 2 3 4 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-1 A* found path length 8; 573 expanded; 572 necessary; using 3897 states in memory; 0.0016s elapsed
+			GAP-1 I-A* ; 1257 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 501 expanded; 501 necessary; using 1168 states in memory; 0.0009s elapsed
+			Hard-GAP-1 I-MM ; 662 expanded;
+	Problem 45 of 100
+	Start state: 3 9 2 8 1 4 7 5 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 9; 470 expanded; 50 necessary; using 3319 states in memory; 0.0011s elapsed
+			GAP-1 I-A* ; 520 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 160 expanded; 76 necessary; using 1266 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 290 expanded;
+	Problem 46 of 100
+	Start state: 5 0 7 2 4 9 3 1 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 418 expanded; 415 necessary; using 2993 states in memory; 0.0009s elapsed
+			GAP-1 I-A* ; 862 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 295 expanded; 295 necessary; using 1920 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 529 expanded;
+	Problem 47 of 100
+	Start state: 9 2 6 7 8 3 1 0 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 335 expanded; 334 necessary; using 2300 states in memory; 0.0008s elapsed
+			GAP-1 I-A* ; 712 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 260 expanded; 260 necessary; using 1254 states in memory; 0.0005s elapsed
+			Hard-GAP-1 I-MM ; 377 expanded;
+	Problem 48 of 100
+	Start state: 0 9 8 1 6 4 7 5 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 487 expanded; 486 necessary; using 3480 states in memory; 0.0011s elapsed
+			GAP-1 I-A* ; 1013 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 293 expanded; 286 necessary; using 2238 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 694 expanded;
+	Problem 49 of 100
+	Start state: 2 3 6 8 1 9 5 4 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 8; 52 expanded; 4 necessary; using 403 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 56 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 22 expanded; 13 necessary; using 177 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 39 expanded;
+	Problem 50 of 100
+	Start state: 8 6 7 5 4 3 9 1 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 412 expanded; 410 necessary; using 2781 states in memory; 0.0009s elapsed
+			GAP-1 I-A* ; 877 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 398 expanded; 398 necessary; using 1914 states in memory; 0.0008s elapsed
+			Hard-GAP-1 I-MM ; 537 expanded;
+	Problem 51 of 100
+	Start state: 2 5 4 6 0 7 9 3 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 168 expanded; 168 necessary; using 1269 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 351 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 298 expanded; 155 necessary; using 2281 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 491 expanded;
+	Problem 52 of 100
+	Start state: 9 6 7 8 0 1 3 5 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 776 expanded; 772 necessary; using 5034 states in memory; 0.0021s elapsed
+			GAP-1 I-A* ; 1657 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 457 expanded; 405 necessary; using 3398 states in memory; 0.0011s elapsed
+			Hard-GAP-1 I-MM ; 977 expanded;
+	Problem 53 of 100
+	Start state: 5 1 4 2 8 7 0 6 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 96 expanded; 96 necessary; using 722 states in memory; 0.0002s elapsed
+			GAP-1 I-A* ; 197 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 99 expanded; 99 necessary; using 531 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 168 expanded;
+	Problem 54 of 100
+	Start state: 1 6 0 7 5 8 9 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 7; 30 expanded; 30 necessary; using 232 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 61 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 52 expanded; 36 necessary; using 413 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 96 expanded;
+	Problem 55 of 100
+	Start state: 7 4 2 9 3 1 8 6 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 386 expanded; 386 necessary; using 2707 states in memory; 0.0009s elapsed
+			GAP-1 I-A* ; 798 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 313 expanded; 313 necessary; using 1513 states in memory; 0.0006s elapsed
+			Hard-GAP-1 I-MM ; 555 expanded;
+	Problem 56 of 100
+	Start state: 0 5 3 9 1 6 2 8 7 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 979 expanded; 978 necessary; using 6748 states in memory; 0.0025s elapsed
+			GAP-1 I-A* ; 2014 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 812 expanded; 812 necessary; using 3904 states in memory; 0.0017s elapsed
+			Hard-GAP-1 I-MM ; 1351 expanded;
+	Problem 57 of 100
+	Start state: 3 9 2 7 4 8 6 1 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 9; 33 expanded; 33 necessary; using 262 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 66 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 71 expanded; 65 necessary; using 570 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 180 expanded;
+	Problem 58 of 100
+	Start state: 1 3 9 0 8 6 4 5 7 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 129 expanded; 129 necessary; using 971 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 270 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 250 expanded; 137 necessary; using 1919 states in memory; 0.0006s elapsed
+			Hard-GAP-1 I-MM ; 432 expanded;
+	Problem 59 of 100
+	Start state: 1 9 8 5 4 2 0 6 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 76 expanded; 75 necessary; using 578 states in memory; 0.0002s elapsed
+			GAP-1 I-A* ; 157 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 81 expanded; 81 necessary; using 342 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 143 expanded;
+	Problem 60 of 100
+	Start state: 1 6 4 0 8 7 3 9 5 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 10; 1282 expanded; 1279 necessary; using 8506 states in memory; 0.0034s elapsed
+			GAP-1 I-A* ; 2687 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 1077 expanded; 1077 necessary; using 5048 states in memory; 0.0023s elapsed
+			Hard-GAP-1 I-MM ; 1709 expanded;
+	Problem 61 of 100
+	Start state: 6 9 3 0 4 7 1 5 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 339 expanded; 337 necessary; using 2425 states in memory; 0.0008s elapsed
+			GAP-1 I-A* ; 687 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 340 expanded; 340 necessary; using 1577 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 600 expanded;
+	Problem 62 of 100
+	Start state: 1 8 9 3 4 5 6 2 0 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-1 A* found path length 7; 131 expanded; 131 necessary; using 954 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 290 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 92 expanded; 78 necessary; using 733 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 188 expanded;
+	Problem 63 of 100
+	Start state: 2 9 7 4 1 0 8 6 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 9; 32 expanded; 32 necessary; using 252 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 64 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 67 expanded; 67 necessary; using 524 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 179 expanded;
+	Problem 64 of 100
+	Start state: 3 4 5 0 1 9 7 6 8 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 7; 48 expanded; 35 necessary; using 378 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 87 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 31 expanded; 31 necessary; using 248 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 78 expanded;
+	Problem 65 of 100
+	Start state: 7 1 8 0 4 9 2 6 5 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 183 expanded; 182 necessary; using 1385 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 377 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 129 expanded; 123 necessary; using 1017 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 326 expanded;
+	Problem 66 of 100
+	Start state: 9 1 2 6 5 0 7 8 3 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-1 A* found path length 7; 117 expanded; 117 necessary; using 901 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 255 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 137 expanded; 78 necessary; using 1035 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 215 expanded;
+	Problem 67 of 100
+	Start state: 2 3 5 8 4 1 9 7 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 163 expanded; 162 necessary; using 1208 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 340 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 147 expanded; 83 necessary; using 1146 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 256 expanded;
+	Problem 68 of 100
+	Start state: 9 5 1 4 8 2 7 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 478 expanded; 478 necessary; using 3378 states in memory; 0.0011s elapsed
+			GAP-1 I-A* ; 986 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 192 expanded; 192 necessary; using 1391 states in memory; 0.0005s elapsed
+			Hard-GAP-1 I-MM ; 342 expanded;
+	Problem 69 of 100
+	Start state: 7 3 9 2 0 5 6 1 4 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 10; 1305 expanded; 1304 necessary; using 8562 states in memory; 0.0030s elapsed
+			GAP-1 I-A* ; 2726 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 1176 expanded; 1176 necessary; using 5137 states in memory; 0.0024s elapsed
+			Hard-GAP-1 I-MM ; 1819 expanded;
+	Problem 70 of 100
+	Start state: 2 8 4 1 6 9 3 7 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-1 A* found path length 11; 1744 expanded; 1743 necessary; using 11704 states in memory; 0.0042s elapsed
+			GAP-1 I-A* ; 3608 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 11; 1317 expanded; 1298 necessary; using 9404 states in memory; 0.0033s elapsed
+			Hard-GAP-1 I-MM ; 3210 expanded;
+	Problem 71 of 100
+	Start state: 6 3 2 9 5 7 4 1 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 8; 19 expanded; 18 necessary; using 154 states in memory; 0.0000s elapsed
+			GAP-1 I-A* ; 37 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 45 expanded; 45 necessary; using 168 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 82 expanded;
+	Problem 72 of 100
+	Start state: 6 9 7 3 2 0 4 1 5 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 10; 1598 expanded; 1598 necessary; using 10331 states in memory; 0.0037s elapsed
+			GAP-1 I-A* ; 3364 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 1253 expanded; 1253 necessary; using 5542 states in memory; 0.0026s elapsed
+			Hard-GAP-1 I-MM ; 1906 expanded;
+	Problem 73 of 100
+	Start state: 3 9 5 7 0 4 1 2 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 10; 1361 expanded; 1358 necessary; using 8984 states in memory; 0.0032s elapsed
+			GAP-1 I-A* ; 2808 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 1155 expanded; 1155 necessary; using 5120 states in memory; 0.0024s elapsed
+			Hard-GAP-1 I-MM ; 1820 expanded;
+	Problem 74 of 100
+	Start state: 6 8 4 1 5 2 7 3 9 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-1 A* found path length 10; 27 expanded; 25 necessary; using 214 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 52 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 180 expanded; 180 necessary; using 415 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 323 expanded;
+	Problem 75 of 100
+	Start state: 9 0 6 5 8 3 4 2 7 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 684 expanded; 683 necessary; using 4645 states in memory; 0.0015s elapsed
+			GAP-1 I-A* ; 1446 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 525 expanded; 310 necessary; using 3872 states in memory; 0.0012s elapsed
+			Hard-GAP-1 I-MM ; 855 expanded;
+	Problem 76 of 100
+	Start state: 1 0 5 7 4 6 3 9 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 9; 25 expanded; 25 necessary; using 200 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 50 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 29 expanded; 19 necessary; using 236 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 57 expanded;
+	Problem 77 of 100
+	Start state: 9 8 6 5 3 7 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 7; 27 expanded; 26 necessary; using 213 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 53 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 73 expanded; 14 necessary; using 491 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 119 expanded;
+	Problem 78 of 100
+	Start state: 1 0 8 3 5 6 7 4 9 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 7; 10 expanded; 9 necessary; using 82 states in memory; 0.0000s elapsed
+			GAP-1 I-A* ; 19 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 11 expanded; 8 necessary; using 86 states in memory; 0.0000s elapsed
+			Hard-GAP-1 I-MM ; 24 expanded;
+	Problem 79 of 100
+	Start state: 1 8 7 9 6 0 4 5 2 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 7; 34 expanded; 34 necessary; using 270 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 70 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 71 expanded; 40 necessary; using 566 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 119 expanded;
+	Problem 80 of 100
+	Start state: 8 4 9 2 0 5 1 3 7 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 166 expanded; 166 necessary; using 1254 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 341 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 287 expanded; 158 necessary; using 2192 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 492 expanded;
+	Problem 81 of 100
+	Start state: 7 4 0 8 9 3 2 5 6 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 281 expanded; 281 necessary; using 2004 states in memory; 0.0006s elapsed
+			GAP-1 I-A* ; 607 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 250 expanded; 250 necessary; using 1239 states in memory; 0.0005s elapsed
+			Hard-GAP-1 I-MM ; 367 expanded;
+	Problem 82 of 100
+	Start state: 0 7 6 1 9 3 5 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 1849 expanded; 1081 necessary; using 12085 states in memory; 0.0042s elapsed
+			GAP-1 I-A* ; 2998 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 2442 expanded; 889 necessary; using 16799 states in memory; 0.0061s elapsed
+			Hard-GAP-1 I-MM ; 3286 expanded;
+	Problem 83 of 100
+	Start state: 0 2 3 8 9 5 1 7 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 148 expanded; 148 necessary; using 1133 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 310 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 177 expanded; 177 necessary; using 1296 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 285 expanded;
+	Problem 84 of 100
+	Start state: 0 3 5 1 7 6 8 2 9 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 933 expanded; 933 necessary; using 6487 states in memory; 0.0022s elapsed
+			GAP-1 I-A* ; 1928 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 775 expanded; 775 necessary; using 3694 states in memory; 0.0017s elapsed
+			Hard-GAP-1 I-MM ; 1292 expanded;
+	Problem 85 of 100
+	Start state: 5 6 9 2 0 8 4 7 3 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 132 expanded; 131 necessary; using 997 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 273 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 166 expanded; 79 necessary; using 1286 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 266 expanded;
+	Problem 86 of 100
+	Start state: 9 8 2 5 4 0 1 6 7 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 7; 42 expanded; 41 necessary; using 331 states in memory; 0.0001s elapsed
+			GAP-1 I-A* ; 87 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 136 expanded; 35 necessary; using 358 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 202 expanded;
+	Problem 87 of 100
+	Start state: 8 4 9 7 0 5 1 2 3 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 130 expanded; 129 necessary; using 954 states in memory; 0.0003s elapsed
+			GAP-1 I-A* ; 265 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 100 expanded; 100 necessary; using 538 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 163 expanded;
+	Problem 88 of 100
+	Start state: 1 8 5 6 7 2 4 9 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 656 expanded; 655 necessary; using 4441 states in memory; 0.0015s elapsed
+			GAP-1 I-A* ; 1384 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 434 expanded; 382 necessary; using 3250 states in memory; 0.0010s elapsed
+			Hard-GAP-1 I-MM ; 923 expanded;
+	Problem 89 of 100
+	Start state: 3 1 5 2 6 7 4 0 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 691 expanded; 691 necessary; using 4523 states in memory; 0.0015s elapsed
+			GAP-1 I-A* ; 1479 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 482 expanded; 399 necessary; using 3574 states in memory; 0.0011s elapsed
+			Hard-GAP-1 I-MM ; 971 expanded;
+	Problem 90 of 100
+	Start state: 4 8 2 5 9 7 1 6 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 9
+		_A*_
+			GAP-1 A* found path length 10; 93 expanded; 93 necessary; using 726 states in memory; 0.0002s elapsed
+			GAP-1 I-A* ; 186 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 213 expanded; 213 necessary; using 684 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 374 expanded;
+	Problem 91 of 100
+	Start state: 9 2 3 1 8 6 7 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 885 expanded; 882 necessary; using 5997 states in memory; 0.0019s elapsed
+			GAP-1 I-A* ; 1896 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 446 expanded; 409 necessary; using 3364 states in memory; 0.0011s elapsed
+			Hard-GAP-1 I-MM ; 963 expanded;
+	Problem 92 of 100
+	Start state: 7 5 8 9 4 3 1 0 6 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 7; 7 expanded; 7 necessary; using 58 states in memory; 0.0000s elapsed
+			GAP-1 I-A* ; 14 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 21 expanded; 21 necessary; using 170 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 52 expanded;
+	Problem 93 of 100
+	Start state: 0 3 6 8 5 4 7 2 1 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 307 expanded; 303 necessary; using 2177 states in memory; 0.0007s elapsed
+			GAP-1 I-A* ; 643 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 222 expanded; 222 necessary; using 1150 states in memory; 0.0005s elapsed
+			Hard-GAP-1 I-MM ; 330 expanded;
+	Problem 94 of 100
+	Start state: 1 9 3 6 0 2 8 7 4 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 9; 431 expanded; 430 necessary; using 3130 states in memory; 0.0010s elapsed
+			GAP-1 I-A* ; 892 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 491 expanded; 387 necessary; using 3715 states in memory; 0.0012s elapsed
+			Hard-GAP-1 I-MM ; 981 expanded;
+	Problem 95 of 100
+	Start state: 4 5 0 2 3 9 1 6 8 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-1 A* found path length 8; 192 expanded; 192 necessary; using 1439 states in memory; 0.0004s elapsed
+			GAP-1 I-A* ; 405 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 152 expanded; 152 necessary; using 1177 states in memory; 0.0004s elapsed
+			Hard-GAP-1 I-MM ; 246 expanded;
+	Problem 96 of 100
+	Start state: 4 1 3 6 9 2 7 5 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 10; 416 expanded; 415 necessary; using 2963 states in memory; 0.0009s elapsed
+			GAP-1 I-A* ; 850 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 10; 350 expanded; 350 necessary; using 1635 states in memory; 0.0007s elapsed
+			Hard-GAP-1 I-MM ; 620 expanded;
+	Problem 97 of 100
+	Start state: 0 6 9 2 7 3 8 5 4 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-1 A* found path length 9; 85 expanded; 85 necessary; using 670 states in memory; 0.0002s elapsed
+			GAP-1 I-A* ; 170 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 107 expanded; 79 necessary; using 848 states in memory; 0.0003s elapsed
+			Hard-GAP-1 I-MM ; 238 expanded;
+	Problem 98 of 100
+	Start state: 6 4 0 2 8 1 7 5 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-1 A* found path length 9; 241 expanded; 240 necessary; using 1695 states in memory; 0.0005s elapsed
+			GAP-1 I-A* ; 495 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 9; 206 expanded; 158 necessary; using 1580 states in memory; 0.0005s elapsed
+			Hard-GAP-1 I-MM ; 421 expanded;
+	Problem 99 of 100
+	Start state: 9 4 1 0 2 6 7 8 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 8; 80 expanded; 78 necessary; using 605 states in memory; 0.0002s elapsed
+			GAP-1 I-A* ; 161 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 8; 90 expanded; 90 necessary; using 418 states in memory; 0.0002s elapsed
+			Hard-GAP-1 I-MM ; 153 expanded;
+	Problem 100 of 100
+	Start state: 3 8 7 9 6 5 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-1 A* found path length 7; 18 expanded; 4 necessary; using 146 states in memory; 0.0000s elapsed
+			GAP-1 I-A* ; 22 expanded;
+		_MM_
+			Hard-GAP-1 MM found path length 7; 25 expanded; 23 necessary; using 200 states in memory; 0.0001s elapsed
+			Hard-GAP-1 I-MM ; 60 expanded;
+TestPancakeHard:(Pancakes: 10, Gap: 2, Random: 1, Hard: 0)
+	Problem 1 of 100
+	Start state: 6 5 0 7 3 2 4 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 1697 expanded; 1687 necessary; using 11088 states in memory; 0.0038s elapsed
+			GAP-2 I-A* ; 3609 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 583 expanded; 583 necessary; using 3653 states in memory; 0.0013s elapsed
+			Hard-GAP-2 I-MM ; 740 expanded;
+	Problem 2 of 100
+	Start state: 1 7 3 9 5 4 8 2 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 9; 3488 expanded; 1109 necessary; using 21996 states in memory; 0.0099s elapsed
+			GAP-2 I-A* ; 4665 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 843 expanded; 707 necessary; using 6226 states in memory; 0.0020s elapsed
+			Hard-GAP-2 I-MM ; 1664 expanded;
+	Problem 3 of 100
+	Start state: 1 8 2 4 6 9 7 5 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 10; 8766 expanded; 8714 necessary; using 50419 states in memory; 0.0251s elapsed
+			GAP-2 I-A* ; 18413 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3940 expanded; 3940 necessary; using 17644 states in memory; 0.0080s elapsed
+			Hard-GAP-2 I-MM ; 5188 expanded;
+	Problem 4 of 100
+	Start state: 0 7 1 5 4 2 3 8 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 7; 513 expanded; 493 necessary; using 3638 states in memory; 0.0011s elapsed
+			GAP-2 I-A* ; 1085 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 194 expanded; 158 necessary; using 1537 states in memory; 0.0005s elapsed
+			Hard-GAP-2 I-MM ; 353 expanded;
+	Problem 5 of 100
+	Start state: 0 2 3 7 4 5 6 9 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 7; 580 expanded; 529 necessary; using 4023 states in memory; 0.0013s elapsed
+			GAP-2 I-A* ; 1200 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 389 expanded; 220 necessary; using 2914 states in memory; 0.0009s elapsed
+			Hard-GAP-2 I-MM ; 520 expanded;
+	Problem 6 of 100
+	Start state: 3 1 2 7 4 0 8 9 5 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 1777 expanded; 1752 necessary; using 11317 states in memory; 0.0040s elapsed
+			GAP-2 I-A* ; 3839 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 737 expanded; 737 necessary; using 3835 states in memory; 0.0016s elapsed
+			Hard-GAP-2 I-MM ; 914 expanded;
+	Problem 7 of 100
+	Start state: 4 9 3 6 0 5 2 1 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4527 expanded; 4449 necessary; using 26656 states in memory; 0.0107s elapsed
+			GAP-2 I-A* ; 9687 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 938 expanded; 924 necessary; using 6737 states in memory; 0.0023s elapsed
+			Hard-GAP-2 I-MM ; 2035 expanded;
+	Problem 8 of 100
+	Start state: 6 0 3 9 5 7 1 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 11; 62519 expanded; 62504 necessary; using 270150 states in memory; 0.3125s elapsed
+			GAP-2 I-A* ; 138292 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 11; 11428 expanded; 9747 necessary; using 70004 states in memory; 0.0309s elapsed
+			Hard-GAP-2 I-MM ; 20729 expanded;
+	Problem 9 of 100
+	Start state: 3 7 2 8 9 5 1 0 4 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 8; 139 expanded; 135 necessary; using 1044 states in memory; 0.0003s elapsed
+			GAP-2 I-A* ; 278 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 437 expanded; 437 necessary; using 2690 states in memory; 0.0010s elapsed
+			Hard-GAP-2 I-MM ; 568 expanded;
+	Problem 10 of 100
+	Start state: 3 9 7 1 2 8 6 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 9; 7232 expanded; 2231 necessary; using 41536 states in memory; 0.0169s elapsed
+			GAP-2 I-A* ; 9669 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1010 expanded; 842 necessary; using 7344 states in memory; 0.0024s elapsed
+			Hard-GAP-2 I-MM ; 1934 expanded;
+	Problem 11 of 100
+	Start state: 3 8 0 1 9 6 2 5 4 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 9; 1583 expanded; 1554 necessary; using 10404 states in memory; 0.0036s elapsed
+			GAP-2 I-A* ; 3239 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1261 expanded; 990 necessary; using 9021 states in memory; 0.0029s elapsed
+			Hard-GAP-2 I-MM ; 2326 expanded;
+	Problem 12 of 100
+	Start state: 7 3 0 4 9 8 2 5 1 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 10; 20828 expanded; 20793 necessary; using 104455 states in memory; 0.0605s elapsed
+			GAP-2 I-A* ; 45427 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 6401 expanded; 6401 necessary; using 30820 states in memory; 0.0139s elapsed
+			Hard-GAP-2 I-MM ; 7868 expanded;
+	Problem 13 of 100
+	Start state: 0 8 6 1 3 9 7 2 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 18227 expanded; 18190 necessary; using 93699 states in memory; 0.0481s elapsed
+			GAP-2 I-A* ; 39863 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 5708 expanded; 5708 necessary; using 27230 states in memory; 0.0149s elapsed
+			Hard-GAP-2 I-MM ; 7109 expanded;
+	Problem 14 of 100
+	Start state: 6 8 7 2 1 9 3 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 1952 expanded; 1875 necessary; using 12164 states in memory; 0.0043s elapsed
+			GAP-2 I-A* ; 4160 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 908 expanded; 908 necessary; using 4657 states in memory; 0.0020s elapsed
+			Hard-GAP-2 I-MM ; 1092 expanded;
+	Problem 15 of 100
+	Start state: 6 4 2 1 8 9 3 5 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 9; 2573 expanded; 2525 necessary; using 15794 states in memory; 0.0057s elapsed
+			GAP-2 I-A* ; 5416 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1692 expanded; 1192 necessary; using 11769 states in memory; 0.0039s elapsed
+			Hard-GAP-2 I-MM ; 2740 expanded;
+	Problem 16 of 100
+	Start state: 0 2 5 9 6 4 1 7 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 10; 9497 expanded; 9432 necessary; using 54143 states in memory; 0.0232s elapsed
+			GAP-2 I-A* ; 20079 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3493 expanded; 3493 necessary; using 16638 states in memory; 0.0073s elapsed
+			Hard-GAP-2 I-MM ; 4669 expanded;
+	Problem 17 of 100
+	Start state: 1 7 3 9 8 5 6 2 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 6478 expanded; 6471 necessary; using 37336 states in memory; 0.0156s elapsed
+			GAP-2 I-A* ; 14065 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 3721 expanded; 2433 necessary; using 23899 states in memory; 0.0084s elapsed
+			Hard-GAP-2 I-MM ; 5058 expanded;
+	Problem 18 of 100
+	Start state: 5 1 9 2 7 6 8 4 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 5026 expanded; 4992 necessary; using 29465 states in memory; 0.0112s elapsed
+			GAP-2 I-A* ; 10806 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1410 expanded; 1206 necessary; using 10039 states in memory; 0.0036s elapsed
+			Hard-GAP-2 I-MM ; 2653 expanded;
+	Problem 19 of 100
+	Start state: 0 1 8 5 6 9 2 4 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 8; 2298 expanded; 324 necessary; using 14910 states in memory; 0.0054s elapsed
+			GAP-2 I-A* ; 2640 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 262 expanded; 262 necessary; using 1998 states in memory; 0.0006s elapsed
+			Hard-GAP-2 I-MM ; 389 expanded;
+	Problem 20 of 100
+	Start state: 2 0 5 4 1 3 6 9 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 9; 8057 expanded; 7978 necessary; using 44655 states in memory; 0.0184s elapsed
+			GAP-2 I-A* ; 17710 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 2998 expanded; 2132 necessary; using 19842 states in memory; 0.0072s elapsed
+			Hard-GAP-2 I-MM ; 4317 expanded;
+	Problem 21 of 100
+	Start state: 2 0 4 6 3 5 7 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 9; 1952 expanded; 1900 necessary; using 12313 states in memory; 0.0045s elapsed
+			GAP-2 I-A* ; 4023 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 822 expanded; 709 necessary; using 6059 states in memory; 0.0019s elapsed
+			Hard-GAP-2 I-MM ; 1644 expanded;
+	Problem 22 of 100
+	Start state: 0 6 2 8 9 1 7 5 4 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 2552 expanded; 2547 necessary; using 15647 states in memory; 0.0057s elapsed
+			GAP-2 I-A* ; 5614 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 936 expanded; 936 necessary; using 4964 states in memory; 0.0020s elapsed
+			Hard-GAP-2 I-MM ; 1122 expanded;
+	Problem 23 of 100
+	Start state: 2 3 9 8 6 0 7 4 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 9; 8108 expanded; 8075 necessary; using 44603 states in memory; 0.0204s elapsed
+			GAP-2 I-A* ; 17724 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1642 expanded; 1333 necessary; using 11401 states in memory; 0.0037s elapsed
+			Hard-GAP-2 I-MM ; 2699 expanded;
+	Problem 24 of 100
+	Start state: 1 6 2 4 0 9 7 5 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 10; 8613 expanded; 8538 necessary; using 49556 states in memory; 0.0213s elapsed
+			GAP-2 I-A* ; 18068 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3934 expanded; 3934 necessary; using 22282 states in memory; 0.0086s elapsed
+			Hard-GAP-2 I-MM ; 5181 expanded;
+	Problem 25 of 100
+	Start state: 0 7 5 9 2 1 4 6 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 10; 9105 expanded; 9061 necessary; using 51840 states in memory; 0.0219s elapsed
+			GAP-2 I-A* ; 19224 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 4540 expanded; 4540 necessary; using 20266 states in memory; 0.0094s elapsed
+			Hard-GAP-2 I-MM ; 5827 expanded;
+	Problem 26 of 100
+	Start state: 7 4 8 3 0 6 1 9 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 12167 expanded; 12115 necessary; using 65926 states in memory; 0.0317s elapsed
+			GAP-2 I-A* ; 25959 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 4374 expanded; 4374 necessary; using 22388 states in memory; 0.0093s elapsed
+			Hard-GAP-2 I-MM ; 5681 expanded;
+	Problem 27 of 100
+	Start state: 8 7 9 4 1 2 5 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4303 expanded; 4302 necessary; using 25685 states in memory; 0.0098s elapsed
+			GAP-2 I-A* ; 9252 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 792 expanded; 768 necessary; using 5770 states in memory; 0.0020s elapsed
+			Hard-GAP-2 I-MM ; 1719 expanded;
+	Problem 28 of 100
+	Start state: 4 2 7 9 1 6 5 0 8 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 10; 22516 expanded; 22464 necessary; using 110575 states in memory; 0.0617s elapsed
+			GAP-2 I-A* ; 49795 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 6461 expanded; 6461 necessary; using 30918 states in memory; 0.0134s elapsed
+			Hard-GAP-2 I-MM ; 7923 expanded;
+	Problem 29 of 100
+	Start state: 6 5 3 1 4 0 9 7 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4627 expanded; 4573 necessary; using 27137 states in memory; 0.0105s elapsed
+			GAP-2 I-A* ; 9950 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 720 expanded; 640 necessary; using 5295 states in memory; 0.0017s elapsed
+			Hard-GAP-2 I-MM ; 1433 expanded;
+	Problem 30 of 100
+	Start state: 8 1 3 4 7 0 2 5 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4741 expanded; 4665 necessary; using 27807 states in memory; 0.0112s elapsed
+			GAP-2 I-A* ; 10218 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1452 expanded; 1174 necessary; using 10297 states in memory; 0.0034s elapsed
+			Hard-GAP-2 I-MM ; 2563 expanded;
+	Problem 31 of 100
+	Start state: 1 4 6 5 8 9 7 3 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 8; 1554 expanded; 1490 necessary; using 10056 states in memory; 0.0034s elapsed
+			GAP-2 I-A* ; 3276 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 824 expanded; 824 necessary; using 4601 states in memory; 0.0017s elapsed
+			Hard-GAP-2 I-MM ; 1002 expanded;
+	Problem 32 of 100
+	Start state: 6 9 1 7 0 8 5 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-2 A* found path length 7; 828 expanded; 798 necessary; using 5468 states in memory; 0.0018s elapsed
+			GAP-2 I-A* ; 1800 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 528 expanded; 317 necessary; using 3835 states in memory; 0.0013s elapsed
+			Hard-GAP-2 I-MM ; 672 expanded;
+	Problem 33 of 100
+	Start state: 6 4 2 0 9 7 8 3 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4587 expanded; 4562 necessary; using 26732 states in memory; 0.0106s elapsed
+			GAP-2 I-A* ; 9932 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 2487 expanded; 1598 necessary; using 16648 states in memory; 0.0062s elapsed
+			Hard-GAP-2 I-MM ; 3599 expanded;
+	Problem 34 of 100
+	Start state: 2 4 1 6 9 8 0 7 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4071 expanded; 4027 necessary; using 23900 states in memory; 0.0096s elapsed
+			GAP-2 I-A* ; 8746 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1264 expanded; 1069 necessary; using 9028 states in memory; 0.0030s elapsed
+			Hard-GAP-2 I-MM ; 2357 expanded;
+	Problem 35 of 100
+	Start state: 2 8 0 7 6 4 5 9 1 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 9; 7787 expanded; 7737 necessary; using 43169 states in memory; 0.0214s elapsed
+			GAP-2 I-A* ; 17137 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1207 expanded; 1201 necessary; using 8497 states in memory; 0.0029s elapsed
+			Hard-GAP-2 I-MM ; 2582 expanded;
+	Problem 36 of 100
+	Start state: 7 9 2 4 3 5 8 6 0 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 9; 450 expanded; 441 necessary; using 3206 states in memory; 0.0010s elapsed
+			GAP-2 I-A* ; 906 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 900 expanded; 661 necessary; using 6603 states in memory; 0.0022s elapsed
+			Hard-GAP-2 I-MM ; 1633 expanded;
+	Problem 37 of 100
+	Start state: 3 2 8 6 5 1 9 7 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 9; 8963 expanded; 8888 necessary; using 48928 states in memory; 0.0252s elapsed
+			GAP-2 I-A* ; 19782 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1074 expanded; 1011 necessary; using 7699 states in memory; 0.0025s elapsed
+			Hard-GAP-2 I-MM ; 2143 expanded;
+	Problem 38 of 100
+	Start state: 1 2 3 9 8 0 4 6 5 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 2625 expanded; 2559 necessary; using 16293 states in memory; 0.0059s elapsed
+			GAP-2 I-A* ; 5717 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 677 expanded; 677 necessary; using 3523 states in memory; 0.0014s elapsed
+			Hard-GAP-2 I-MM ; 839 expanded;
+	Problem 39 of 100
+	Start state: 8 9 1 4 7 3 6 0 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4737 expanded; 4713 necessary; using 27710 states in memory; 0.0139s elapsed
+			GAP-2 I-A* ; 10223 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 2058 expanded; 1170 necessary; using 8120 states in memory; 0.0052s elapsed
+			Hard-GAP-2 I-MM ; 2641 expanded;
+	Problem 40 of 100
+	Start state: 2 7 3 9 0 5 1 8 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 11; 59835 expanded; 59820 necessary; using 258492 states in memory; 0.2947s elapsed
+			GAP-2 I-A* ; 131459 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 11; 9193 expanded; 8590 necessary; using 56267 states in memory; 0.0263s elapsed
+			Hard-GAP-2 I-MM ; 18629 expanded;
+	Problem 41 of 100
+	Start state: 9 1 8 6 7 0 2 3 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-2 A* found path length 8; 3775 expanded; 3743 necessary; using 22243 states in memory; 0.0089s elapsed
+			GAP-2 I-A* ; 8471 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 909 expanded; 909 necessary; using 4814 states in memory; 0.0020s elapsed
+			Hard-GAP-2 I-MM ; 1090 expanded;
+	Problem 42 of 100
+	Start state: 9 4 5 1 6 0 2 3 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-2 A* found path length 8; 3632 expanded; 3577 necessary; using 21519 states in memory; 0.0181s elapsed
+			GAP-2 I-A* ; 8090 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 747 expanded; 747 necessary; using 4367 states in memory; 0.0017s elapsed
+			Hard-GAP-2 I-MM ; 907 expanded;
+	Problem 43 of 100
+	Start state: 9 8 2 3 6 5 7 0 1 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 6; 50 expanded; 49 necessary; using 401 states in memory; 0.0001s elapsed
+			GAP-2 I-A* ; 105 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 6; 19 expanded; 19 necessary; using 154 states in memory; 0.0001s elapsed
+			Hard-GAP-2 I-MM ; 30 expanded;
+	Problem 44 of 100
+	Start state: 1 6 7 0 5 2 3 4 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-2 A* found path length 8; 4386 expanded; 4369 necessary; using 25598 states in memory; 0.0111s elapsed
+			GAP-2 I-A* ; 9887 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 1121 expanded; 1121 necessary; using 6712 states in memory; 0.0026s elapsed
+			Hard-GAP-2 I-MM ; 1307 expanded;
+	Problem 45 of 100
+	Start state: 3 9 2 8 1 4 7 5 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 9; 7294 expanded; 2299 necessary; using 41502 states in memory; 0.0264s elapsed
+			GAP-2 I-A* ; 9835 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1244 expanded; 799 necessary; using 8848 states in memory; 0.0033s elapsed
+			Hard-GAP-2 I-MM ; 1967 expanded;
+	Problem 46 of 100
+	Start state: 5 0 7 2 4 9 3 1 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 12087 expanded; 12023 necessary; using 65695 states in memory; 0.0516s elapsed
+			GAP-2 I-A* ; 25813 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3922 expanded; 3922 necessary; using 19801 states in memory; 0.0092s elapsed
+			Hard-GAP-2 I-MM ; 5171 expanded;
+	Problem 47 of 100
+	Start state: 9 2 6 7 8 3 1 0 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 2011 expanded; 1950 necessary; using 12521 states in memory; 0.0057s elapsed
+			GAP-2 I-A* ; 4327 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 896 expanded; 896 necessary; using 4693 states in memory; 0.0024s elapsed
+			Hard-GAP-2 I-MM ; 1078 expanded;
+	Problem 48 of 100
+	Start state: 0 9 8 1 6 4 7 5 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 7547 expanded; 7484 necessary; using 42011 states in memory; 0.0228s elapsed
+			GAP-2 I-A* ; 16567 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 2006 expanded; 1404 necessary; using 13735 states in memory; 0.0048s elapsed
+			Hard-GAP-2 I-MM ; 2908 expanded;
+	Problem 49 of 100
+	Start state: 2 3 6 8 1 9 5 4 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 8; 4166 expanded; 657 necessary; using 24831 states in memory; 0.0125s elapsed
+			GAP-2 I-A* ; 4876 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 334 expanded; 274 necessary; using 2537 states in memory; 0.0009s elapsed
+			Hard-GAP-2 I-MM ; 444 expanded;
+	Problem 50 of 100
+	Start state: 8 6 7 5 4 3 9 1 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 2290 expanded; 2204 necessary; using 14055 states in memory; 0.0061s elapsed
+			GAP-2 I-A* ; 4943 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 895 expanded; 895 necessary; using 4920 states in memory; 0.0021s elapsed
+			Hard-GAP-2 I-MM ; 1077 expanded;
+	Problem 51 of 100
+	Start state: 2 5 4 6 0 7 9 3 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 3794 expanded; 3744 necessary; using 22828 states in memory; 0.0101s elapsed
+			GAP-2 I-A* ; 8111 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 2413 expanded; 1383 necessary; using 15969 states in memory; 0.0064s elapsed
+			Hard-GAP-2 I-MM ; 3309 expanded;
+	Problem 52 of 100
+	Start state: 9 6 7 8 0 1 3 5 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 5571 expanded; 5550 necessary; using 31197 states in memory; 0.0149s elapsed
+			GAP-2 I-A* ; 12101 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1042 expanded; 972 necessary; using 7548 states in memory; 0.0025s elapsed
+			Hard-GAP-2 I-MM ; 2136 expanded;
+	Problem 53 of 100
+	Start state: 5 1 4 2 8 7 0 6 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 2041 expanded; 2040 necessary; using 12506 states in memory; 0.0058s elapsed
+			GAP-2 I-A* ; 4435 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 739 expanded; 739 necessary; using 4587 states in memory; 0.0018s elapsed
+			Hard-GAP-2 I-MM ; 914 expanded;
+	Problem 54 of 100
+	Start state: 1 6 0 7 5 8 9 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 7; 592 expanded; 564 necessary; using 4035 states in memory; 0.0013s elapsed
+			GAP-2 I-A* ; 1251 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 404 expanded; 245 necessary; using 3063 states in memory; 0.0011s elapsed
+			Hard-GAP-2 I-MM ; 566 expanded;
+	Problem 55 of 100
+	Start state: 7 4 2 9 3 1 8 6 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 11786 expanded; 11779 necessary; using 63682 states in memory; 0.0397s elapsed
+			GAP-2 I-A* ; 25281 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 4365 expanded; 4365 necessary; using 19750 states in memory; 0.0107s elapsed
+			Hard-GAP-2 I-MM ; 5692 expanded;
+	Problem 56 of 100
+	Start state: 0 5 3 9 1 6 2 8 7 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 18285 expanded; 18224 necessary; using 94237 states in memory; 0.0727s elapsed
+			GAP-2 I-A* ; 39750 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 5700 expanded; 5700 necessary; using 27468 states in memory; 0.0132s elapsed
+			Hard-GAP-2 I-MM ; 7109 expanded;
+	Problem 57 of 100
+	Start state: 3 9 2 7 4 8 6 1 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 9; 488 expanded; 471 necessary; using 3464 states in memory; 0.0013s elapsed
+			GAP-2 I-A* ; 980 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 407 expanded; 393 necessary; using 3067 states in memory; 0.0010s elapsed
+			Hard-GAP-2 I-MM ; 920 expanded;
+	Problem 58 of 100
+	Start state: 1 3 9 0 8 6 4 5 7 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 9; 3040 expanded; 3006 necessary; using 19103 states in memory; 0.0075s elapsed
+			GAP-2 I-A* ; 6382 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1918 expanded; 1266 necessary; using 13415 states in memory; 0.0046s elapsed
+			Hard-GAP-2 I-MM ; 2951 expanded;
+	Problem 59 of 100
+	Start state: 1 9 8 5 4 2 0 6 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 8; 1278 expanded; 1245 necessary; using 8546 states in memory; 0.0031s elapsed
+			GAP-2 I-A* ; 2700 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 371 expanded; 371 necessary; using 1799 states in memory; 0.0008s elapsed
+			Hard-GAP-2 I-MM ; 498 expanded;
+	Problem 60 of 100
+	Start state: 1 6 4 0 8 7 3 9 5 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 18169 expanded; 18118 necessary; using 93771 states in memory; 0.0731s elapsed
+			GAP-2 I-A* ; 39526 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 6119 expanded; 6119 necessary; using 28475 states in memory; 0.0138s elapsed
+			Hard-GAP-2 I-MM ; 7553 expanded;
+	Problem 61 of 100
+	Start state: 6 9 3 0 4 7 1 5 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 11173 expanded; 11098 necessary; using 62085 states in memory; 0.0436s elapsed
+			GAP-2 I-A* ; 23742 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3389 expanded; 3389 necessary; using 17159 states in memory; 0.0076s elapsed
+			Hard-GAP-2 I-MM ; 4523 expanded;
+	Problem 62 of 100
+	Start state: 1 8 9 3 4 5 6 2 0 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-2 A* found path length 7; 1127 expanded; 1089 necessary; using 7382 states in memory; 0.0026s elapsed
+			GAP-2 I-A* ; 2471 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 328 expanded; 241 necessary; using 2535 states in memory; 0.0008s elapsed
+			Hard-GAP-2 I-MM ; 505 expanded;
+	Problem 63 of 100
+	Start state: 2 9 7 4 1 0 8 6 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 9; 288 expanded; 276 necessary; using 2131 states in memory; 0.0007s elapsed
+			GAP-2 I-A* ; 574 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 421 expanded; 379 necessary; using 3181 states in memory; 0.0010s elapsed
+			Hard-GAP-2 I-MM ; 907 expanded;
+	Problem 64 of 100
+	Start state: 3 4 5 0 1 9 7 6 8 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 7; 457 expanded; 341 necessary; using 3179 states in memory; 0.0010s elapsed
+			GAP-2 I-A* ; 842 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 176 expanded; 107 necessary; using 1375 states in memory; 0.0004s elapsed
+			Hard-GAP-2 I-MM ; 271 expanded;
+	Problem 65 of 100
+	Start state: 7 1 8 0 4 9 2 6 5 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4420 expanded; 4386 necessary; using 26270 states in memory; 0.0114s elapsed
+			GAP-2 I-A* ; 9499 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1229 expanded; 1065 necessary; using 8809 states in memory; 0.0030s elapsed
+			Hard-GAP-2 I-MM ; 2347 expanded;
+	Problem 66 of 100
+	Start state: 9 1 2 6 5 0 7 8 3 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-2 A* found path length 7; 687 expanded; 675 necessary; using 4744 states in memory; 0.0016s elapsed
+			GAP-2 I-A* ; 1493 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 342 expanded; 228 necessary; using 2614 states in memory; 0.0008s elapsed
+			Hard-GAP-2 I-MM ; 487 expanded;
+	Problem 67 of 100
+	Start state: 2 3 5 8 4 1 9 7 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4333 expanded; 4266 necessary; using 25415 states in memory; 0.0115s elapsed
+			GAP-2 I-A* ; 9204 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 978 expanded; 741 necessary; using 7046 states in memory; 0.0027s elapsed
+			Hard-GAP-2 I-MM ; 1667 expanded;
+	Problem 68 of 100
+	Start state: 9 5 1 4 8 2 7 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 12508 expanded; 12461 necessary; using 66951 states in memory; 0.0437s elapsed
+			GAP-2 I-A* ; 26799 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3371 expanded; 3371 necessary; using 17065 states in memory; 0.0075s elapsed
+			Hard-GAP-2 I-MM ; 4508 expanded;
+	Problem 69 of 100
+	Start state: 7 3 9 2 0 5 6 1 4 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 10; 22076 expanded; 22057 necessary; using 108818 states in memory; 0.1015s elapsed
+			GAP-2 I-A* ; 48919 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 6390 expanded; 6390 necessary; using 30314 states in memory; 0.0186s elapsed
+			Hard-GAP-2 I-MM ; 7850 expanded;
+	Problem 70 of 100
+	Start state: 2 8 4 1 6 9 3 7 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 11; 39754 expanded; 39733 necessary; using 185241 states in memory; 0.2099s elapsed
+			GAP-2 I-A* ; 85377 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 11; 7128 expanded; 7069 necessary; using 44060 states in memory; 0.0226s elapsed
+			Hard-GAP-2 I-MM ; 15598 expanded;
+	Problem 71 of 100
+	Start state: 6 3 2 9 5 7 4 1 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 8; 253 expanded; 248 necessary; using 1816 states in memory; 0.0007s elapsed
+			GAP-2 I-A* ; 513 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 257 expanded; 257 necessary; using 1061 states in memory; 0.0006s elapsed
+			Hard-GAP-2 I-MM ; 370 expanded;
+	Problem 72 of 100
+	Start state: 6 9 7 3 2 0 4 1 5 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 10; 23560 expanded; 23515 necessary; using 115623 states in memory; 0.0955s elapsed
+			GAP-2 I-A* ; 52338 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 5408 expanded; 5408 necessary; using 26094 states in memory; 0.0131s elapsed
+			Hard-GAP-2 I-MM ; 6752 expanded;
+	Problem 73 of 100
+	Start state: 3 9 5 7 0 4 1 2 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 11759 expanded; 11692 necessary; using 64428 states in memory; 0.0410s elapsed
+			GAP-2 I-A* ; 24980 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 4426 expanded; 4426 necessary; using 20449 states in memory; 0.0112s elapsed
+			Hard-GAP-2 I-MM ; 5720 expanded;
+	Problem 74 of 100
+	Start state: 6 8 4 1 5 2 7 3 9 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 10; 4895 expanded; 4524 necessary; using 30009 states in memory; 0.0149s elapsed
+			GAP-2 I-A* ; 9661 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3360 expanded; 3360 necessary; using 17590 states in memory; 0.0085s elapsed
+			Hard-GAP-2 I-MM ; 4498 expanded;
+	Problem 75 of 100
+	Start state: 9 0 6 5 8 3 4 2 7 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 5781 expanded; 5751 necessary; using 33269 states in memory; 0.0164s elapsed
+			GAP-2 I-A* ; 12578 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 2388 expanded; 1582 necessary; using 16121 states in memory; 0.0066s elapsed
+			Hard-GAP-2 I-MM ; 3408 expanded;
+	Problem 76 of 100
+	Start state: 1 0 5 7 4 6 3 9 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 8
+		_A*_
+			GAP-2 A* found path length 9; 107 expanded; 106 necessary; using 829 states in memory; 0.0003s elapsed
+			GAP-2 I-A* ; 213 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 138 expanded; 86 necessary; using 1083 states in memory; 0.0004s elapsed
+			Hard-GAP-2 I-MM ; 274 expanded;
+	Problem 77 of 100
+	Start state: 9 8 6 5 3 7 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 7; 149 expanded; 143 necessary; using 1126 states in memory; 0.0004s elapsed
+			GAP-2 I-A* ; 307 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 101 expanded; 58 necessary; using 803 states in memory; 0.0002s elapsed
+			Hard-GAP-2 I-MM ; 146 expanded;
+	Problem 78 of 100
+	Start state: 1 0 8 3 5 6 7 4 9 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 7; 28 expanded; 27 necessary; using 226 states in memory; 0.0001s elapsed
+			GAP-2 I-A* ; 55 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 39 expanded; 30 necessary; using 310 states in memory; 0.0001s elapsed
+			Hard-GAP-2 I-MM ; 79 expanded;
+	Problem 79 of 100
+	Start state: 1 8 7 9 6 0 4 5 2 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 7; 440 expanded; 427 necessary; using 3149 states in memory; 0.0015s elapsed
+			GAP-2 I-A* ; 939 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 154 expanded; 134 necessary; using 1220 states in memory; 0.0005s elapsed
+			Hard-GAP-2 I-MM ; 293 expanded;
+	Problem 80 of 100
+	Start state: 8 4 9 2 0 5 1 3 7 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 4590 expanded; 4505 necessary; using 27123 states in memory; 0.0185s elapsed
+			GAP-2 I-A* ; 9796 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1881 expanded; 1354 necessary; using 13111 states in memory; 0.0055s elapsed
+			Hard-GAP-2 I-MM ; 2988 expanded;
+	Problem 81 of 100
+	Start state: 7 4 0 8 9 3 2 5 6 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 2135 expanded; 2063 necessary; using 13332 states in memory; 0.0052s elapsed
+			GAP-2 I-A* ; 4570 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 909 expanded; 909 necessary; using 4364 states in memory; 0.0020s elapsed
+			Hard-GAP-2 I-MM ; 1090 expanded;
+	Problem 82 of 100
+	Start state: 0 7 6 1 9 3 5 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 19326 expanded; 18422 necessary; using 98411 states in memory; 0.0968s elapsed
+			GAP-2 I-A* ; 41237 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 6175 expanded; 4560 necessary; using 38550 states in memory; 0.0195s elapsed
+			Hard-GAP-2 I-MM ; 7513 expanded;
+	Problem 83 of 100
+	Start state: 0 2 3 8 9 5 1 7 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 8; 2667 expanded; 2633 necessary; using 16621 states in memory; 0.0068s elapsed
+			GAP-2 I-A* ; 5829 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 758 expanded; 758 necessary; using 4326 states in memory; 0.0018s elapsed
+			Hard-GAP-2 I-MM ; 936 expanded;
+	Problem 84 of 100
+	Start state: 0 3 5 1 7 6 8 2 9 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 17852 expanded; 17781 necessary; using 92688 states in memory; 0.0711s elapsed
+			GAP-2 I-A* ; 38622 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 5750 expanded; 5750 necessary; using 28891 states in memory; 0.0139s elapsed
+			Hard-GAP-2 I-MM ; 7155 expanded;
+	Problem 85 of 100
+	Start state: 5 6 9 2 0 8 4 7 3 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 9; 2196 expanded; 2132 necessary; using 14058 states in memory; 0.0053s elapsed
+			GAP-2 I-A* ; 4528 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1389 expanded; 747 necessary; using 9680 states in memory; 0.0041s elapsed
+			Hard-GAP-2 I-MM ; 1904 expanded;
+	Problem 86 of 100
+	Start state: 9 8 2 5 4 0 1 6 7 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 7; 338 expanded; 330 necessary; using 2453 states in memory; 0.0009s elapsed
+			GAP-2 I-A* ; 715 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 291 expanded; 155 necessary; using 2190 states in memory; 0.0007s elapsed
+			Hard-GAP-2 I-MM ; 385 expanded;
+	Problem 87 of 100
+	Start state: 8 4 9 7 0 5 1 2 3 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 8; 850 expanded; 804 necessary; using 5679 states in memory; 0.0019s elapsed
+			GAP-2 I-A* ; 1755 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 567 expanded; 567 necessary; using 2889 states in memory; 0.0012s elapsed
+			Hard-GAP-2 I-MM ; 724 expanded;
+	Problem 88 of 100
+	Start state: 1 8 5 6 7 2 4 9 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 6725 expanded; 6674 necessary; using 37786 states in memory; 0.0196s elapsed
+			GAP-2 I-A* ; 14672 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1240 expanded; 1182 necessary; using 8830 states in memory; 0.0029s elapsed
+			Hard-GAP-2 I-MM ; 2561 expanded;
+	Problem 89 of 100
+	Start state: 3 1 5 2 6 7 4 0 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 9; 8649 expanded; 8643 necessary; using 46943 states in memory; 0.0274s elapsed
+			GAP-2 I-A* ; 19306 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1250 expanded; 1230 necessary; using 8852 states in memory; 0.0034s elapsed
+			Hard-GAP-2 I-MM ; 2622 expanded;
+	Problem 90 of 100
+	Start state: 4 8 2 5 9 7 1 6 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 10; 5744 expanded; 5729 necessary; using 33867 states in memory; 0.0189s elapsed
+			GAP-2 I-A* ; 12015 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 3344 expanded; 3344 necessary; using 13933 states in memory; 0.0077s elapsed
+			Hard-GAP-2 I-MM ; 4472 expanded;
+	Problem 91 of 100
+	Start state: 9 2 3 1 8 6 7 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-2 A* found path length 9; 10529 expanded; 10478 necessary; using 56277 states in memory; 0.0397s elapsed
+			GAP-2 I-A* ; 23632 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1191 expanded; 1152 necessary; using 8462 states in memory; 0.0037s elapsed
+			Hard-GAP-2 I-MM ; 2411 expanded;
+	Problem 92 of 100
+	Start state: 7 5 8 9 4 3 1 0 6 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 7; 91 expanded; 89 necessary; using 680 states in memory; 0.0002s elapsed
+			GAP-2 I-A* ; 184 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 148 expanded; 114 necessary; using 1170 states in memory; 0.0004s elapsed
+			Hard-GAP-2 I-MM ; 268 expanded;
+	Problem 93 of 100
+	Start state: 0 3 6 8 5 4 7 2 1 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 8; 1814 expanded; 1790 necessary; using 11257 states in memory; 0.0044s elapsed
+			GAP-2 I-A* ; 3892 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 754 expanded; 754 necessary; using 3831 states in memory; 0.0020s elapsed
+			Hard-GAP-2 I-MM ; 925 expanded;
+	Problem 94 of 100
+	Start state: 1 9 3 6 0 2 8 7 4 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 6784 expanded; 6714 necessary; using 38697 states in memory; 0.0224s elapsed
+			GAP-2 I-A* ; 14713 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 2130 expanded; 1582 necessary; using 14656 states in memory; 0.0062s elapsed
+			Hard-GAP-2 I-MM ; 3317 expanded;
+	Problem 95 of 100
+	Start state: 4 5 0 2 3 9 1 6 8 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-2 A* found path length 8; 3310 expanded; 3295 necessary; using 19923 states in memory; 0.0098s elapsed
+			GAP-2 I-A* ; 7310 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 748 expanded; 748 necessary; using 4450 states in memory; 0.0023s elapsed
+			Hard-GAP-2 I-MM ; 908 expanded;
+	Problem 96 of 100
+	Start state: 4 1 3 6 9 2 7 5 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-2 A* found path length 10; 11753 expanded; 11676 necessary; using 64144 states in memory; 0.0416s elapsed
+			GAP-2 I-A* ; 25142 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 10; 4375 expanded; 4375 necessary; using 24548 states in memory; 0.0126s elapsed
+			Hard-GAP-2 I-MM ; 5697 expanded;
+	Problem 97 of 100
+	Start state: 0 6 9 2 7 3 8 5 4 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 7
+		_A*_
+			GAP-2 A* found path length 9; 1392 expanded; 1354 necessary; using 9220 states in memory; 0.0036s elapsed
+			GAP-2 I-A* ; 2827 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 893 expanded; 675 necessary; using 6654 states in memory; 0.0025s elapsed
+			Hard-GAP-2 I-MM ; 1634 expanded;
+	Problem 98 of 100
+	Start state: 6 4 0 2 8 1 7 5 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 9; 5651 expanded; 5612 necessary; using 31355 states in memory; 0.0165s elapsed
+			GAP-2 I-A* ; 12209 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 9; 1070 expanded; 981 necessary; using 7603 states in memory; 0.0025s elapsed
+			Hard-GAP-2 I-MM ; 2157 expanded;
+	Problem 99 of 100
+	Start state: 9 4 1 0 2 6 7 8 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 8; 839 expanded; 814 necessary; using 5545 states in memory; 0.0020s elapsed
+			GAP-2 I-A* ; 1734 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 8; 585 expanded; 585 necessary; using 2770 states in memory; 0.0013s elapsed
+			Hard-GAP-2 I-MM ; 744 expanded;
+	Problem 100 of 100
+	Start state: 3 8 7 9 6 5 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-2 A* found path length 7; 577 expanded; 108 necessary; using 4071 states in memory; 0.0014s elapsed
+			GAP-2 I-A* ; 687 expanded;
+		_MM_
+			Hard-GAP-2 MM found path length 7; 109 expanded; 86 necessary; using 871 states in memory; 0.0003s elapsed
+			Hard-GAP-2 I-MM ; 207 expanded;
+TestPancakeHard:(Pancakes: 10, Gap: 3, Random: 1, Hard: 0)
+	Problem 1 of 100
+	Start state: 6 5 0 7 3 2 4 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 8; 8517 expanded; 7821 necessary; using 48142 states in memory; 0.0247s elapsed
+			GAP-3 I-A* ; 17742 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1164 expanded; 1164 necessary; using 7595 states in memory; 0.0034s elapsed
+			Hard-GAP-3 I-MM ; 1350 expanded;
+	Problem 2 of 100
+	Start state: 1 7 3 9 5 4 8 2 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 55319 expanded; 17547 necessary; using 248287 states in memory; 0.2819s elapsed
+			GAP-3 I-A* ; 75702 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 4654 expanded; 3456 necessary; using 28989 states in memory; 0.0117s elapsed
+			Hard-GAP-3 I-MM ; 6113 expanded;
+	Problem 3 of 100
+	Start state: 1 8 2 4 6 9 7 5 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 10; 85552 expanded; 85035 necessary; using 353943 states in memory; 0.4608s elapsed
+			GAP-3 I-A* ; 191135 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8449 expanded; 8449 necessary; using 43753 states in memory; 0.0239s elapsed
+			Hard-GAP-3 I-MM ; 9948 expanded;
+	Problem 4 of 100
+	Start state: 0 7 1 5 4 2 3 8 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 7; 2502 expanded; 2066 necessary; using 15692 states in memory; 0.0058s elapsed
+			GAP-3 I-A* ; 4957 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 433 expanded; 341 necessary; using 3294 states in memory; 0.0011s elapsed
+			Hard-GAP-3 I-MM ; 619 expanded;
+	Problem 5 of 100
+	Start state: 0 2 3 7 4 5 6 9 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 7; 1104 expanded; 936 necessary; using 7401 states in memory; 0.0089s elapsed
+			GAP-3 I-A* ; 2153 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 611 expanded; 365 necessary; using 4438 states in memory; 0.0016s elapsed
+			Hard-GAP-3 I-MM ; 782 expanded;
+	Problem 6 of 100
+	Start state: 3 1 2 7 4 0 8 9 5 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 8; 9093 expanded; 8727 necessary; using 49710 states in memory; 0.0369s elapsed
+			GAP-3 I-A* ; 19735 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1085 expanded; 1085 necessary; using 5844 states in memory; 0.0024s elapsed
+			Hard-GAP-3 I-MM ; 1269 expanded;
+	Problem 7 of 100
+	Start state: 4 9 3 6 0 5 2 1 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 24315 expanded; 23741 necessary; using 119485 states in memory; 0.1124s elapsed
+			GAP-3 I-A* ; 52903 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1428 expanded; 1411 necessary; using 10046 states in memory; 0.0036s elapsed
+			Hard-GAP-3 I-MM ; 2880 expanded;
+	Problem 8 of 100
+	Start state: 6 0 3 9 5 7 1 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 11; 332537 expanded; 332463 necessary; using 1007472 states in memory; 2.0603s elapsed
+			GAP-3 I-A* ; 789793 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 11; 9642 expanded; 9628 necessary; using 57446 states in memory; 0.0285s elapsed
+			Hard-GAP-3 I-MM ; 20378 expanded;
+	Problem 9 of 100
+	Start state: 3 7 2 8 9 5 1 0 4 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 3689 expanded; 3411 necessary; using 22141 states in memory; 0.0101s elapsed
+			GAP-3 I-A* ; 7543 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1079 expanded; 1079 necessary; using 6348 states in memory; 0.0025s elapsed
+			Hard-GAP-3 I-MM ; 1264 expanded;
+	Problem 10 of 100
+	Start state: 3 9 7 1 2 8 6 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 49932 expanded; 12894 necessary; using 225237 states in memory; 0.2542s elapsed
+			GAP-3 I-A* ; 64497 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1269 expanded; 1241 necessary; using 8978 states in memory; 0.0034s elapsed
+			Hard-GAP-3 I-MM ; 2660 expanded;
+	Problem 11 of 100
+	Start state: 3 8 0 1 9 6 2 5 4 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 21322 expanded; 20643 necessary; using 107226 states in memory; 0.1227s elapsed
+			GAP-3 I-A* ; 45442 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1641 expanded; 1600 necessary; using 11501 states in memory; 0.0044s elapsed
+			Hard-GAP-3 I-MM ; 3128 expanded;
+	Problem 12 of 100
+	Start state: 7 3 0 4 9 8 2 5 1 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 10; 130431 expanded; 129691 necessary; using 484820 states in memory; 0.7675s elapsed
+			GAP-3 I-A* ; 302692 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 9169 expanded; 9169 necessary; using 50208 states in memory; 0.0269s elapsed
+			Hard-GAP-3 I-MM ; 10669 expanded;
+	Problem 13 of 100
+	Start state: 0 8 6 1 3 9 7 2 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 115134 expanded; 114889 necessary; using 443979 states in memory; 0.6789s elapsed
+			GAP-3 I-A* ; 265669 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 9113 expanded; 9113 necessary; using 49700 states in memory; 0.0247s elapsed
+			Hard-GAP-3 I-MM ; 10613 expanded;
+	Problem 14 of 100
+	Start state: 6 8 7 2 1 9 3 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 8; 9851 expanded; 9222 necessary; using 52907 states in memory; 0.0336s elapsed
+			GAP-3 I-A* ; 20997 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1195 expanded; 1195 necessary; using 7352 states in memory; 0.0032s elapsed
+			Hard-GAP-3 I-MM ; 1381 expanded;
+	Problem 15 of 100
+	Start state: 6 4 2 1 8 9 3 5 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 14768 expanded; 14465 necessary; using 77001 states in memory; 0.0560s elapsed
+			GAP-3 I-A* ; 31377 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1394 expanded; 1312 necessary; using 9840 states in memory; 0.0045s elapsed
+			Hard-GAP-3 I-MM ; 2788 expanded;
+	Problem 16 of 100
+	Start state: 0 2 5 9 6 4 1 7 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-3 A* found path length 10; 55435 expanded; 54821 necessary; using 250087 states in memory; 0.3347s elapsed
+			GAP-3 I-A* ; 118989 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8033 expanded; 8033 necessary; using 41735 states in memory; 0.0241s elapsed
+			Hard-GAP-3 I-MM ; 9516 expanded;
+	Problem 17 of 100
+	Start state: 1 7 3 9 8 5 6 2 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 28956 expanded; 28953 necessary; using 139687 states in memory; 0.1433s elapsed
+			GAP-3 I-A* ; 64053 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3295 expanded; 3105 necessary; using 21692 states in memory; 0.0093s elapsed
+			Hard-GAP-3 I-MM ; 4788 expanded;
+	Problem 18 of 100
+	Start state: 5 1 9 2 7 6 8 4 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 40690 expanded; 39959 necessary; using 184379 states in memory; 0.1939s elapsed
+			GAP-3 I-A* ; 91809 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1366 expanded; 1355 necessary; using 9597 states in memory; 0.0045s elapsed
+			Hard-GAP-3 I-MM ; 2861 expanded;
+	Problem 19 of 100
+	Start state: 0 1 8 5 6 9 2 4 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 8207 expanded; 6063 necessary; using 46712 states in memory; 0.0389s elapsed
+			GAP-3 I-A* ; 15257 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1095 expanded; 1095 necessary; using 6743 states in memory; 0.0027s elapsed
+			Hard-GAP-3 I-MM ; 1281 expanded;
+	Problem 20 of 100
+	Start state: 2 0 5 4 1 3 6 9 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 31289 expanded; 30089 necessary; using 149182 states in memory; 0.1678s elapsed
+			GAP-3 I-A* ; 68330 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1376 expanded; 1366 necessary; using 9691 states in memory; 0.0039s elapsed
+			Hard-GAP-3 I-MM ; 2866 expanded;
+	Problem 21 of 100
+	Start state: 2 0 4 6 3 5 7 9 8 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-3 A* found path length 9; 8569 expanded; 8496 necessary; using 48653 states in memory; 0.0304s elapsed
+			GAP-3 I-A* ; 17755 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1331 expanded; 1252 necessary; using 9499 states in memory; 0.0037s elapsed
+			Hard-GAP-3 I-MM ; 2660 expanded;
+	Problem 22 of 100
+	Start state: 0 6 2 8 9 1 7 5 4 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 8; 17051 expanded; 16621 necessary; using 87068 states in memory; 0.0639s elapsed
+			GAP-3 I-A* ; 38527 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 764 expanded; 764 necessary; using 5112 states in memory; 0.0020s elapsed
+			Hard-GAP-3 I-MM ; 950 expanded;
+	Problem 23 of 100
+	Start state: 2 3 9 8 6 0 7 4 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 29787 expanded; 29007 necessary; using 143739 states in memory; 0.1437s elapsed
+			GAP-3 I-A* ; 65080 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1084 expanded; 1077 necessary; using 7728 states in memory; 0.0030s elapsed
+			Hard-GAP-3 I-MM ; 2324 expanded;
+	Problem 24 of 100
+	Start state: 1 6 2 4 0 9 7 5 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 10; 82658 expanded; 82133 necessary; using 347003 states in memory; 0.4829s elapsed
+			GAP-3 I-A* ; 183154 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8382 expanded; 8382 necessary; using 43999 states in memory; 0.0277s elapsed
+			Hard-GAP-3 I-MM ; 9879 expanded;
+	Problem 25 of 100
+	Start state: 0 7 5 9 2 1 4 6 3 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-3 A* found path length 10; 55710 expanded; 55254 necessary; using 251696 states in memory; 0.3012s elapsed
+			GAP-3 I-A* ; 119783 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8313 expanded; 8313 necessary; using 46610 states in memory; 0.0256s elapsed
+			Hard-GAP-3 I-MM ; 9801 expanded;
+	Problem 26 of 100
+	Start state: 7 4 8 3 0 6 1 9 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 101668 expanded; 100760 necessary; using 399300 states in memory; 0.6142s elapsed
+			GAP-3 I-A* ; 229971 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8499 expanded; 8499 necessary; using 44652 states in memory; 0.0265s elapsed
+			Hard-GAP-3 I-MM ; 9995 expanded;
+	Problem 27 of 100
+	Start state: 8 7 9 4 1 2 5 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 24702 expanded; 23767 necessary; using 121771 states in memory; 0.1106s elapsed
+			GAP-3 I-A* ; 53068 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1377 expanded; 1343 necessary; using 9722 states in memory; 0.0039s elapsed
+			Hard-GAP-3 I-MM ; 2621 expanded;
+	Problem 28 of 100
+	Start state: 4 2 7 9 1 6 5 0 8 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 10; 130263 expanded; 129943 necessary; using 484598 states in memory; 0.7676s elapsed
+			GAP-3 I-A* ; 305121 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 5324 expanded; 5324 necessary; using 32381 states in memory; 0.0172s elapsed
+			Hard-GAP-3 I-MM ; 6824 expanded;
+	Problem 29 of 100
+	Start state: 6 5 3 1 4 0 9 7 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 36300 expanded; 36017 necessary; using 167042 states in memory; 0.1757s elapsed
+			GAP-3 I-A* ; 81875 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3514 expanded; 3335 necessary; using 22892 states in memory; 0.0097s elapsed
+			Hard-GAP-3 I-MM ; 4934 expanded;
+	Problem 30 of 100
+	Start state: 8 1 3 4 7 0 2 5 9 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 26699 expanded; 26592 necessary; using 128628 states in memory; 0.1196s elapsed
+			GAP-3 I-A* ; 59427 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1367 expanded; 1354 necessary; using 9632 states in memory; 0.0038s elapsed
+			Hard-GAP-3 I-MM ; 2831 expanded;
+	Problem 31 of 100
+	Start state: 1 4 6 5 8 9 7 3 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 8; 3446 expanded; 3002 necessary; using 21242 states in memory; 0.0135s elapsed
+			GAP-3 I-A* ; 6760 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 658 expanded; 658 necessary; using 4912 states in memory; 0.0021s elapsed
+			Hard-GAP-3 I-MM ; 840 expanded;
+	Problem 32 of 100
+	Start state: 6 9 1 7 0 8 5 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 7; 1980 expanded; 1869 necessary; using 12417 states in memory; 0.0060s elapsed
+			GAP-3 I-A* ; 4189 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 640 expanded; 452 necessary; using 4639 states in memory; 0.0018s elapsed
+			Hard-GAP-3 I-MM ; 821 expanded;
+	Problem 33 of 100
+	Start state: 6 4 2 0 9 7 8 3 1 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 24893 expanded; 24847 necessary; using 121174 states in memory; 0.1218s elapsed
+			GAP-3 I-A* ; 54878 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 4947 expanded; 4023 necessary; using 30356 states in memory; 0.0157s elapsed
+			Hard-GAP-3 I-MM ; 6422 expanded;
+	Problem 34 of 100
+	Start state: 2 4 1 6 9 8 0 7 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 28668 expanded; 27844 necessary; using 139686 states in memory; 0.1374s elapsed
+			GAP-3 I-A* ; 62681 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3668 expanded; 3436 necessary; using 23771 states in memory; 0.0098s elapsed
+			Hard-GAP-3 I-MM ; 5145 expanded;
+	Problem 35 of 100
+	Start state: 2 8 0 7 6 4 5 9 1 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 44089 expanded; 43446 necessary; using 198790 states in memory; 0.2279s elapsed
+			GAP-3 I-A* ; 100408 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1838 expanded; 1802 necessary; using 12834 states in memory; 0.0048s elapsed
+			Hard-GAP-3 I-MM ; 3338 expanded;
+	Problem 36 of 100
+	Start state: 7 9 2 4 3 5 8 6 0 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 16042 expanded; 15341 necessary; using 82802 states in memory; 0.0655s elapsed
+			GAP-3 I-A* ; 33721 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 4054 expanded; 2926 necessary; using 25707 states in memory; 0.0110s elapsed
+			Hard-GAP-3 I-MM ; 5444 expanded;
+	Problem 37 of 100
+	Start state: 3 2 8 6 5 1 9 7 0 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 35771 expanded; 34718 necessary; using 165254 states in memory; 0.1697s elapsed
+			GAP-3 I-A* ; 79552 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1566 expanded; 1545 necessary; using 10940 states in memory; 0.0045s elapsed
+			Hard-GAP-3 I-MM ; 3042 expanded;
+	Problem 38 of 100
+	Start state: 1 2 3 9 8 0 4 6 5 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 6246 expanded; 5713 necessary; using 36203 states in memory; 0.0202s elapsed
+			GAP-3 I-A* ; 12890 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1046 expanded; 1046 necessary; using 5701 states in memory; 0.0024s elapsed
+			Hard-GAP-3 I-MM ; 1229 expanded;
+	Problem 39 of 100
+	Start state: 8 9 1 4 7 3 6 0 2 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 25286 expanded; 24403 necessary; using 122824 states in memory; 0.1194s elapsed
+			GAP-3 I-A* ; 54475 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1747 expanded; 1661 necessary; using 12326 states in memory; 0.0050s elapsed
+			Hard-GAP-3 I-MM ; 2987 expanded;
+	Problem 40 of 100
+	Start state: 2 7 3 9 0 5 1 8 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 11; 304347 expanded; 304256 necessary; using 960117 states in memory; 1.9999s elapsed
+			GAP-3 I-A* ; 707703 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 11; 10246 expanded; 10206 necessary; using 61234 states in memory; 0.0351s elapsed
+			Hard-GAP-3 I-MM ; 20950 expanded;
+	Problem 41 of 100
+	Start state: 9 1 8 6 7 0 2 3 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 8; 9786 expanded; 9120 necessary; using 53470 states in memory; 0.0380s elapsed
+			GAP-3 I-A* ; 20862 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1190 expanded; 1190 necessary; using 7160 states in memory; 0.0031s elapsed
+			Hard-GAP-3 I-MM ; 1376 expanded;
+	Problem 42 of 100
+	Start state: 9 4 5 1 6 0 2 3 7 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 8; 9155 expanded; 8807 necessary; using 50157 states in memory; 0.0419s elapsed
+			GAP-3 I-A* ; 19863 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1090 expanded; 1090 necessary; using 6186 states in memory; 0.0025s elapsed
+			Hard-GAP-3 I-MM ; 1273 expanded;
+	Problem 43 of 100
+	Start state: 9 8 2 3 6 5 7 0 1 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 6; 324 expanded; 273 necessary; using 2354 states in memory; 0.0009s elapsed
+			GAP-3 I-A* ; 636 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 6; 75 expanded; 75 necessary; using 506 states in memory; 0.0002s elapsed
+			Hard-GAP-3 I-MM ; 95 expanded;
+	Problem 44 of 100
+	Start state: 1 6 7 0 5 2 3 4 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 8; 16331 expanded; 15689 necessary; using 84994 states in memory; 0.0743s elapsed
+			GAP-3 I-A* ; 36428 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 905 expanded; 905 necessary; using 6526 states in memory; 0.0028s elapsed
+			Hard-GAP-3 I-MM ; 1091 expanded;
+	Problem 45 of 100
+	Start state: 3 9 2 8 1 4 7 5 6 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 30616 expanded; 23170 necessary; using 147233 states in memory; 0.1539s elapsed
+			GAP-3 I-A* ; 58275 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3281 expanded; 2850 necessary; using 21643 states in memory; 0.0084s elapsed
+			Hard-GAP-3 I-MM ; 4674 expanded;
+	Problem 46 of 100
+	Start state: 5 0 7 2 4 9 3 1 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 99468 expanded; 98714 necessary; using 395854 states in memory; 0.6246s elapsed
+			GAP-3 I-A* ; 224922 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8849 expanded; 8849 necessary; using 45464 states in memory; 0.0260s elapsed
+			Hard-GAP-3 I-MM ; 10349 expanded;
+	Problem 47 of 100
+	Start state: 9 2 6 7 8 3 1 0 5 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 8; 14608 expanded; 14493 necessary; using 75276 states in memory; 0.0569s elapsed
+			GAP-3 I-A* ; 33043 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 775 expanded; 775 necessary; using 5557 states in memory; 0.0021s elapsed
+			Hard-GAP-3 I-MM ; 961 expanded;
+	Problem 48 of 100
+	Start state: 0 9 8 1 6 4 7 5 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 21497 expanded; 20747 necessary; using 106572 states in memory; 0.0938s elapsed
+			GAP-3 I-A* ; 45972 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3148 expanded; 2431 necessary; using 20846 states in memory; 0.0097s elapsed
+			Hard-GAP-3 I-MM ; 4413 expanded;
+	Problem 49 of 100
+	Start state: 2 3 6 8 1 9 5 4 7 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 8; 18311 expanded; 2927 necessary; using 95035 states in memory; 0.0747s elapsed
+			GAP-3 I-A* ; 21553 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1078 expanded; 874 necessary; using 7687 states in memory; 0.0034s elapsed
+			Hard-GAP-3 I-MM ; 1260 expanded;
+	Problem 50 of 100
+	Start state: 8 6 7 5 4 3 9 1 2 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 6135 expanded; 5458 necessary; using 34190 states in memory; 0.0186s elapsed
+			GAP-3 I-A* ; 12435 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1071 expanded; 1071 necessary; using 6332 states in memory; 0.0028s elapsed
+			Hard-GAP-3 I-MM ; 1255 expanded;
+	Problem 51 of 100
+	Start state: 2 5 4 6 0 7 9 3 1 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 28958 expanded; 28519 necessary; using 140955 states in memory; 0.1451s elapsed
+			GAP-3 I-A* ; 64025 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 2971 expanded; 2806 necessary; using 19746 states in memory; 0.0089s elapsed
+			Hard-GAP-3 I-MM ; 4390 expanded;
+	Problem 52 of 100
+	Start state: 9 6 7 8 0 1 3 5 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 39185 expanded; 39100 necessary; using 177287 states in memory; 0.1935s elapsed
+			GAP-3 I-A* ; 89318 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1397 expanded; 1383 necessary; using 9892 states in memory; 0.0042s elapsed
+			Hard-GAP-3 I-MM ; 2804 expanded;
+	Problem 53 of 100
+	Start state: 5 1 4 2 8 7 0 6 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 8; 16343 expanded; 15127 necessary; using 80789 states in memory; 0.0642s elapsed
+			GAP-3 I-A* ; 35782 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1232 expanded; 1232 necessary; using 7499 states in memory; 0.0030s elapsed
+			Hard-GAP-3 I-MM ; 1418 expanded;
+	Problem 54 of 100
+	Start state: 1 6 0 7 5 8 9 4 3 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 7; 1582 expanded; 1199 necessary; using 10297 states in memory; 0.0040s elapsed
+			GAP-3 I-A* ; 2950 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 177 expanded; 169 necessary; using 1412 states in memory; 0.0007s elapsed
+			Hard-GAP-3 I-MM ; 355 expanded;
+	Problem 55 of 100
+	Start state: 7 4 2 9 3 1 8 6 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 99860 expanded; 99176 necessary; using 392522 states in memory; 0.5969s elapsed
+			GAP-3 I-A* ; 226000 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 9002 expanded; 9002 necessary; using 47488 states in memory; 0.0301s elapsed
+			Hard-GAP-3 I-MM ; 10502 expanded;
+	Problem 56 of 100
+	Start state: 0 5 3 9 1 6 2 8 7 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 115230 expanded; 115013 necessary; using 445359 states in memory; 0.7088s elapsed
+			GAP-3 I-A* ; 264908 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 9124 expanded; 9124 necessary; using 49515 states in memory; 0.0282s elapsed
+			Hard-GAP-3 I-MM ; 10624 expanded;
+	Problem 57 of 100
+	Start state: 3 9 2 7 4 8 6 1 0 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 12056 expanded; 11591 necessary; using 64982 states in memory; 0.0547s elapsed
+			GAP-3 I-A* ; 25120 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1908 expanded; 1575 necessary; using 13292 states in memory; 0.0059s elapsed
+			Hard-GAP-3 I-MM ; 3218 expanded;
+	Problem 58 of 100
+	Start state: 1 3 9 0 8 6 4 5 7 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 19987 expanded; 19533 necessary; using 102103 states in memory; 0.1247s elapsed
+			GAP-3 I-A* ; 42833 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 4311 expanded; 3207 necessary; using 27262 states in memory; 0.0131s elapsed
+			Hard-GAP-3 I-MM ; 5731 expanded;
+	Problem 59 of 100
+	Start state: 1 9 8 5 4 2 0 6 3 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 6127 expanded; 5890 necessary; using 35665 states in memory; 0.0219s elapsed
+			GAP-3 I-A* ; 12943 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 866 expanded; 866 necessary; using 4921 states in memory; 0.0020s elapsed
+			Hard-GAP-3 I-MM ; 1039 expanded;
+	Problem 60 of 100
+	Start state: 1 6 4 0 8 7 3 9 5 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 10; 88455 expanded; 88027 necessary; using 361526 states in memory; 0.5538s elapsed
+			GAP-3 I-A* ; 197672 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 5385 expanded; 5385 necessary; using 33372 states in memory; 0.0175s elapsed
+			Hard-GAP-3 I-MM ; 6883 expanded;
+	Problem 61 of 100
+	Start state: 6 9 3 0 4 7 1 5 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 98495 expanded; 98191 necessary; using 390924 states in memory; 0.5980s elapsed
+			GAP-3 I-A* ; 222561 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8514 expanded; 8514 necessary; using 48930 states in memory; 0.0302s elapsed
+			Hard-GAP-3 I-MM ; 10012 expanded;
+	Problem 62 of 100
+	Start state: 1 8 9 3 4 5 6 2 0 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 7; 4725 expanded; 4188 necessary; using 27572 states in memory; 0.0143s elapsed
+			GAP-3 I-A* ; 9925 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 211 expanded; 209 necessary; using 1682 states in memory; 0.0005s elapsed
+			Hard-GAP-3 I-MM ; 390 expanded;
+	Problem 63 of 100
+	Start state: 2 9 7 4 1 0 8 6 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-3 A* found path length 9; 7380 expanded; 7329 necessary; using 43832 states in memory; 0.0419s elapsed
+			GAP-3 I-A* ; 15330 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 2772 expanded; 1870 necessary; using 18936 states in memory; 0.0070s elapsed
+			Hard-GAP-3 I-MM ; 4101 expanded;
+	Problem 64 of 100
+	Start state: 3 4 5 0 1 9 7 6 8 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 7; 3686 expanded; 1733 necessary; using 22032 states in memory; 0.0117s elapsed
+			GAP-3 I-A* ; 5688 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 382 expanded; 301 necessary; using 2916 states in memory; 0.0012s elapsed
+			Hard-GAP-3 I-MM ; 540 expanded;
+	Problem 65 of 100
+	Start state: 7 1 8 0 4 9 2 6 5 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 36935 expanded; 36077 necessary; using 170812 states in memory; 0.2113s elapsed
+			GAP-3 I-A* ; 82620 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 2211 expanded; 2139 necessary; using 15159 states in memory; 0.0063s elapsed
+			Hard-GAP-3 I-MM ; 3687 expanded;
+	Problem 66 of 100
+	Start state: 9 1 2 6 5 0 7 8 3 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 7; 3947 expanded; 3332 necessary; using 23673 states in memory; 0.0111s elapsed
+			GAP-3 I-A* ; 8028 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 365 expanded; 314 necessary; using 2807 states in memory; 0.0009s elapsed
+			Hard-GAP-3 I-MM ; 545 expanded;
+	Problem 67 of 100
+	Start state: 2 3 5 8 4 1 9 7 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 17803 expanded; 17405 necessary; using 93063 states in memory; 0.0821s elapsed
+			GAP-3 I-A* ; 38134 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3075 expanded; 2430 necessary; using 20408 states in memory; 0.0084s elapsed
+			Hard-GAP-3 I-MM ; 4445 expanded;
+	Problem 68 of 100
+	Start state: 9 5 1 4 8 2 7 3 0 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 101067 expanded; 100957 necessary; using 396049 states in memory; 0.6215s elapsed
+			GAP-3 I-A* ; 230084 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8549 expanded; 8549 necessary; using 44036 states in memory; 0.0246s elapsed
+			Hard-GAP-3 I-MM ; 10048 expanded;
+	Problem 69 of 100
+	Start state: 7 3 9 2 0 5 6 1 4 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 100917 expanded; 100229 necessary; using 397872 states in memory; 0.6269s elapsed
+			GAP-3 I-A* ; 227967 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8835 expanded; 8835 necessary; using 46654 states in memory; 0.0253s elapsed
+			Hard-GAP-3 I-MM ; 10335 expanded;
+	Problem 70 of 100
+	Start state: 2 8 4 1 6 9 3 7 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-3 A* found path length 11; 252747 expanded; 252720 necessary; using 844191 states in memory; 1.6956s elapsed
+			GAP-3 I-A* ; 571141 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 11; 10323 expanded; 10245 necessary; using 61816 states in memory; 0.0342s elapsed
+			Hard-GAP-3 I-MM ; 20991 expanded;
+	Problem 71 of 100
+	Start state: 6 3 2 9 5 7 4 1 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 8; 2048 expanded; 1858 necessary; using 12962 states in memory; 0.0053s elapsed
+			GAP-3 I-A* ; 4104 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 784 expanded; 784 necessary; using 4296 states in memory; 0.0020s elapsed
+			Hard-GAP-3 I-MM ; 956 expanded;
+	Problem 72 of 100
+	Start state: 6 9 7 3 2 0 4 1 5 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 10; 69037 expanded; 69006 necessary; using 296948 states in memory; 0.4219s elapsed
+			GAP-3 I-A* ; 151402 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8005 expanded; 8005 necessary; using 41547 states in memory; 0.0250s elapsed
+			Hard-GAP-3 I-MM ; 9495 expanded;
+	Problem 73 of 100
+	Start state: 3 9 5 7 0 4 1 2 6 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 10; 65295 expanded; 65132 necessary; using 282878 states in memory; 0.3802s elapsed
+			GAP-3 I-A* ; 142090 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8507 expanded; 8507 necessary; using 45062 states in memory; 0.0247s elapsed
+			Hard-GAP-3 I-MM ; 10005 expanded;
+	Problem 74 of 100
+	Start state: 6 8 4 1 5 2 7 3 9 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 10; 83140 expanded; 69281 necessary; using 349417 states in memory; 0.4813s elapsed
+			GAP-3 I-A* ; 164759 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8629 expanded; 8629 necessary; using 50245 states in memory; 0.0268s elapsed
+			Hard-GAP-3 I-MM ; 10129 expanded;
+	Problem 75 of 100
+	Start state: 9 0 6 5 8 3 4 2 7 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 42171 expanded; 41514 necessary; using 188653 states in memory; 0.2023s elapsed
+			GAP-3 I-A* ; 95892 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 2989 expanded; 2843 necessary; using 19884 states in memory; 0.0105s elapsed
+			Hard-GAP-3 I-MM ; 4441 expanded;
+	Problem 76 of 100
+	Start state: 1 0 5 7 4 6 3 9 2 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 6
+		_A*_
+			GAP-3 A* found path length 9; 7303 expanded; 7252 necessary; using 42628 states in memory; 0.0246s elapsed
+			GAP-3 I-A* ; 15171 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1117 expanded; 1066 necessary; using 8133 states in memory; 0.0030s elapsed
+			Hard-GAP-3 I-MM ; 2302 expanded;
+	Problem 77 of 100
+	Start state: 9 8 6 5 3 7 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 7; 971 expanded; 810 necessary; using 6525 states in memory; 0.0031s elapsed
+			GAP-3 I-A* ; 1878 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 123 expanded; 106 necessary; using 984 states in memory; 0.0004s elapsed
+			Hard-GAP-3 I-MM ; 234 expanded;
+	Problem 78 of 100
+	Start state: 1 0 8 3 5 6 7 4 9 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 7; 284 expanded; 270 necessary; using 2061 states in memory; 0.0007s elapsed
+			GAP-3 I-A* ; 567 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 364 expanded; 191 necessary; using 2745 states in memory; 0.0009s elapsed
+			Hard-GAP-3 I-MM ; 508 expanded;
+	Problem 79 of 100
+	Start state: 1 8 7 9 6 0 4 5 2 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 7; 2117 expanded; 1982 necessary; using 13637 states in memory; 0.0073s elapsed
+			GAP-3 I-A* ; 4473 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 166 expanded; 166 necessary; using 1330 states in memory; 0.0004s elapsed
+			Hard-GAP-3 I-MM ; 348 expanded;
+	Problem 80 of 100
+	Start state: 8 4 9 2 0 5 1 3 7 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 25845 expanded; 25337 necessary; using 126003 states in memory; 0.1310s elapsed
+			GAP-3 I-A* ; 56557 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 2974 expanded; 2657 necessary; using 19783 states in memory; 0.0077s elapsed
+			Hard-GAP-3 I-MM ; 4359 expanded;
+	Problem 81 of 100
+	Start state: 7 4 0 8 9 3 2 5 6 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 8; 8985 expanded; 8720 necessary; using 49150 states in memory; 0.0321s elapsed
+			GAP-3 I-A* ; 19541 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 807 expanded; 807 necessary; using 5848 states in memory; 0.0021s elapsed
+			Hard-GAP-3 I-MM ; 993 expanded;
+	Problem 82 of 100
+	Start state: 0 7 6 1 9 3 5 8 2 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 116889 expanded; 114781 necessary; using 451812 states in memory; 0.7140s elapsed
+			GAP-3 I-A* ; 266847 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8328 expanded; 8328 necessary; using 43075 states in memory; 0.0278s elapsed
+			Hard-GAP-3 I-MM ; 9818 expanded;
+	Problem 83 of 100
+	Start state: 0 2 3 8 9 5 1 7 6 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 5972 expanded; 5798 necessary; using 34873 states in memory; 0.0195s elapsed
+			GAP-3 I-A* ; 12698 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1099 expanded; 1099 necessary; using 7366 states in memory; 0.0032s elapsed
+			Hard-GAP-3 I-MM ; 1285 expanded;
+	Problem 84 of 100
+	Start state: 0 3 5 1 7 6 8 2 9 4 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 115991 expanded; 115698 necessary; using 447084 states in memory; 0.7010s elapsed
+			GAP-3 I-A* ; 267019 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 9108 expanded; 9108 necessary; using 49337 states in memory; 0.0289s elapsed
+			Hard-GAP-3 I-MM ; 10608 expanded;
+	Problem 85 of 100
+	Start state: 5 6 9 2 0 8 4 7 3 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 16517 expanded; 15474 necessary; using 86090 states in memory; 0.0692s elapsed
+			GAP-3 I-A* ; 34144 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3773 expanded; 2560 necessary; using 24105 states in memory; 0.0110s elapsed
+			Hard-GAP-3 I-MM ; 4923 expanded;
+	Problem 86 of 100
+	Start state: 9 8 2 5 4 0 1 6 7 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 7; 3896 expanded; 3304 necessary; using 23299 states in memory; 0.0168s elapsed
+			GAP-3 I-A* ; 7950 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 289 expanded; 244 necessary; using 2254 states in memory; 0.0008s elapsed
+			Hard-GAP-3 I-MM ; 471 expanded;
+	Problem 87 of 100
+	Start state: 8 4 9 7 0 5 1 2 3 6 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 8; 1828 expanded; 1670 necessary; using 11777 states in memory; 0.0050s elapsed
+			GAP-3 I-A* ; 3647 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 768 expanded; 768 necessary; using 4251 states in memory; 0.0019s elapsed
+			Hard-GAP-3 I-MM ; 938 expanded;
+	Problem 88 of 100
+	Start state: 1 8 5 6 7 2 4 9 0 3 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 45050 expanded; 43943 necessary; using 202072 states in memory; 0.2719s elapsed
+			GAP-3 I-A* ; 102082 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 1587 expanded; 1572 necessary; using 11123 states in memory; 0.0045s elapsed
+			Hard-GAP-3 I-MM ; 3087 expanded;
+	Problem 89 of 100
+	Start state: 3 1 5 2 6 7 4 0 9 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 2
+		_A*_
+			GAP-3 A* found path length 9; 49653 expanded; 49336 necessary; using 216618 states in memory; 0.2681s elapsed
+			GAP-3 I-A* ; 115062 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3207 expanded; 3146 necessary; using 21233 states in memory; 0.0088s elapsed
+			Hard-GAP-3 I-MM ; 4707 expanded;
+	Problem 90 of 100
+	Start state: 4 8 2 5 9 7 1 6 3 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 10; 71988 expanded; 71730 necessary; using 306692 states in memory; 0.4253s elapsed
+			GAP-3 I-A* ; 158700 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8593 expanded; 8593 necessary; using 47123 states in memory; 0.0253s elapsed
+			Hard-GAP-3 I-MM ; 10091 expanded;
+	Problem 91 of 100
+	Start state: 9 2 3 1 8 6 7 4 5 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 9; 41341 expanded; 40717 necessary; using 186814 states in memory; 0.1985s elapsed
+			GAP-3 I-A* ; 93985 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 2059 expanded; 2002 necessary; using 13648 states in memory; 0.0053s elapsed
+			Hard-GAP-3 I-MM ; 3532 expanded;
+	Problem 92 of 100
+	Start state: 7 5 8 9 4 3 1 0 6 2 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 7; 912 expanded; 808 necessary; using 6066 states in memory; 0.0022s elapsed
+			GAP-3 I-A* ; 1808 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 411 expanded; 273 necessary; using 3098 states in memory; 0.0010s elapsed
+			Hard-GAP-3 I-MM ; 573 expanded;
+	Problem 93 of 100
+	Start state: 0 3 6 8 5 4 7 2 1 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 9991 expanded; 8920 necessary; using 51780 states in memory; 0.0452s elapsed
+			GAP-3 I-A* ; 20716 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 846 expanded; 846 necessary; using 6179 states in memory; 0.0024s elapsed
+			Hard-GAP-3 I-MM ; 1030 expanded;
+	Problem 94 of 100
+	Start state: 1 9 3 6 0 2 8 7 4 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 30533 expanded; 30042 necessary; using 145954 states in memory; 0.1636s elapsed
+			GAP-3 I-A* ; 67177 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 2387 expanded; 2279 necessary; using 16313 states in memory; 0.0068s elapsed
+			Hard-GAP-3 I-MM ; 3882 expanded;
+	Problem 95 of 100
+	Start state: 4 5 0 2 3 9 1 6 8 7 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 3
+		_A*_
+			GAP-3 A* found path length 8; 9253 expanded; 8441 necessary; using 51389 states in memory; 0.0310s elapsed
+			GAP-3 I-A* ; 19336 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1165 expanded; 1165 necessary; using 6512 states in memory; 0.0036s elapsed
+			Hard-GAP-3 I-MM ; 1351 expanded;
+	Problem 96 of 100
+	Start state: 4 1 3 6 9 2 7 5 0 8 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 10; 100051 expanded; 99303 necessary; using 395186 states in memory; 0.6361s elapsed
+			GAP-3 I-A* ; 226427 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 10; 8629 expanded; 8629 necessary; using 49522 states in memory; 0.0274s elapsed
+			Hard-GAP-3 I-MM ; 10128 expanded;
+	Problem 97 of 100
+	Start state: 0 6 9 2 7 3 8 5 4 1 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 5
+		_A*_
+			GAP-3 A* found path length 9; 19146 expanded; 18785 necessary; using 98251 states in memory; 0.0820s elapsed
+			GAP-3 I-A* ; 41023 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 4485 expanded; 3305 necessary; using 28095 states in memory; 0.0140s elapsed
+			Hard-GAP-3 I-MM ; 5889 expanded;
+	Problem 98 of 100
+	Start state: 6 4 0 2 8 1 7 5 3 9 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 9; 29845 expanded; 29559 necessary; using 133878 states in memory; 0.1417s elapsed
+			GAP-3 I-A* ; 66198 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 9; 3410 expanded; 2893 necessary; using 19310 states in memory; 0.0092s elapsed
+			Hard-GAP-3 I-MM ; 4858 expanded;
+	Problem 99 of 100
+	Start state: 9 4 1 0 2 6 7 8 3 5 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 8; 5225 expanded; 4812 necessary; using 29891 states in memory; 0.0156s elapsed
+			GAP-3 I-A* ; 10732 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 8; 1074 expanded; 1074 necessary; using 6262 states in memory; 0.0027s elapsed
+			Hard-GAP-3 I-MM ; 1258 expanded;
+	Problem 100 of 100
+	Start state: 3 8 7 9 6 5 2 1 4 0 
+	Goal state: 0 1 2 3 4 5 6 7 8 9 
+	Initial heuristic 4
+		_A*_
+			GAP-3 A* found path length 7; 3735 expanded; 570 necessary; using 22730 states in memory; 0.0114s elapsed
+			GAP-3 I-A* ; 4359 expanded;
+		_MM_
+			Hard-GAP-3 MM found path length 7; 243 expanded; 184 necessary; using 1908 states in memory; 0.0007s elapsed
+			Hard-GAP-3 I-MM ; 404 expanded;
+completed!

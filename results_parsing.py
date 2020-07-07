@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-fileName = 'results_17-06-2020_11-09-14.txt'.replace('.txt', '')
+fileName = 'results_06-07-2020_23-52-42'.replace('.txt', '')
 file = open(fileName + ".txt", "r")
 cols = ['Number Of Pancakes', 'Gap', 'Problem ID', 'Start state', 'Goal state', 'Initial Heuristic'
     , 'Algorithm', 'Memory', 'Status', 'States Expanded', 'Necessary Expansions', 'Iterations', 'Runtime(seconds)']
