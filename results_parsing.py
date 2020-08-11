@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-filenames = ['old_rev', 'new_rev']
+filenames = ['parser_test']
 for filename in filenames:
     fileName = filename.replace('.txt', '')
     file = open(fileName + ".txt", "r")
@@ -47,29 +47,32 @@ for filename in filenames:
                 necessary = int(splittedLine[splittedLine.index('necessary;') - 1])
             resDict['Necessary Expansions'] = necessary
             if 'MBBDS' in resDict['Algorithm']:
-                resDict['Iterations'] = int(splittedLine[splittedLine.index('iterations;') - 1])
+                if 'iterations;' in splittedLine:
+                    resDict['Iterations'] = int(splittedLine[splittedLine.index('iterations;') - 1])
+                elif 'iterations' in splittedLine:
+                    resDict['Iterations'] = int(splittedLine[splittedLine.index('iterations') - 1])
             else:
                 resDict['Iterations'] = 0
-            if 'MM found' in line:
+            if line.startswith('MM found'):
                 MMsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
-            if 'A* found' in line:
+            if line.startswith('A* found'):
                 AsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
             if 'memory' in line:
                 if 'MBBDS' in resDict['Algorithm'] or '+' in resDict['Algorithm']:
                     memoryStr = 'Memory_Percentage='
                     resDict['Memory'] = int(splittedLine[splittedLine.index('memory') + 2])
                     resDict['Algorithm'] += '(' + line[line.index(memoryStr) + len(memoryStr):][:4] + ')'
-                    if 'length' in line:
-                        algos2Check = ['MBBDS', 'A*+IDA*(', 'A*+IDA*_Reverse(', 'MM+IDMM', 'A*+IDMM']
-                        for algo2Check in algos2Check:
-                            if algo2Check in resDict['Algorithm']:
-                                solLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
-                                realSolLength = max(AsolLength, MMsolLength)
-                                if solLength not in [AsolLength, MMsolLength]:
-                                    isError = True
-                                    break
                 else:
                     resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
+            algos2Check = ['MBBDS', 'A*+IDA*(', 'A*+IDA*_Reverse(', 'MM+IDMM', 'A*+IDMM', 'IDMM']
+            if 'length' in line and not line.startswith('MM ') and not line.startswith('A* '):
+                # for algo2Check in algos2Check:
+                    # if algo2Check in resDict['Algorithm']:
+                solLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
+                realSolLength = max(AsolLength, MMsolLength)
+                if solLength not in [AsolLength, MMsolLength]:
+                    isError = True
+                    # break
             else:
                 resDict['Memory'] = '-'
             if 'fail' in line:
