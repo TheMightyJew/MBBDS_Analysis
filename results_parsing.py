@@ -1,14 +1,27 @@
 import pandas as pd
 import numpy as np
 
-filenames = ['parser_test']
+analysis_dir = 'Analysis'
+res_dir = 'STP'
+path = analysis_dir + '/' + res_dir + '/'
+filenames = ['stp_10_120']
 for filename in filenames:
     fileName = filename.replace('.txt', '')
-    file = open(fileName + ".txt", "r")
-    cols = ['Number Of Pancakes', 'Gap', 'Problem ID', 'Start state', 'Goal state', 'Initial Heuristic', 'Algorithm',
-            'Memory', 'Status', 'States Expanded', 'Necessary Expansions', 'Iterations', 'Runtime(seconds)']
-    errorCols = ['Number Of Pancakes', 'Gap', 'Problem ID', 'Algorithm', 'Memory', 'Status', 'solLength',
-                 'realSolLength']
+    file = open(path + fileName + ".txt", "r")
+    if res_dir == 'PancakeSorting':
+        cols = ['Number Of Pancakes', 'Gap']
+        errorCols = ['Number Of Pancakes', 'Gap']
+        analysisCols = ['Gap']
+    else:
+        cols = []
+        errorCols = []
+        analysisCols = []
+    cols += ['Problem ID', 'Start state', 'Goal state', 'Initial Heuristic', 'Algorithm',
+             'Memory', 'Status', 'States Expanded', 'Necessary Expansions', 'Iterations', 'Runtime(seconds)']
+    errorCols += ['Problem ID', 'Algorithm', 'Memory', 'Status', 'solLength',
+                  'realSolLength']
+    analysisCols += ['Algorithm', 'Failed(Out Of 100)', 'Mean Expansions', 'Mean Necessary Expansions',
+                     'Mean Iterations', 'Mean Runtime(Seconds)']
     resultsDF = pd.DataFrame()
     errorsDF = pd.DataFrame()
     resDict = dict.fromkeys(cols)
@@ -21,11 +34,12 @@ for filename in filenames:
         isError = False
         line = line.replace('\t', '').replace('\n', '')
         splittedLine = line.replace(gapStr, ' ' + gapStr + ' ').split()
-        if 'TestPancake' in line:
-            resDict['Number Of Pancakes'] = int(
-                splittedLine[splittedLine.index('TestPancake:(Pancakes:') + 1].replace(',', ''))
-            resDict['Gap'] = int(splittedLine[splittedLine.index('Gap:') + 1].replace(')', '').replace(',', ''))
-            gapStr = 'GAP-' + str(resDict['Gap'])
+        if 'Test' in line:
+            if 'TestPancake' in line:
+                resDict['Number Of Pancakes'] = int(
+                    splittedLine[splittedLine.index('TestPancake:(Pancakes:') + 1].replace(',', ''))
+                resDict['Gap'] = int(splittedLine[splittedLine.index('Gap:') + 1].replace(')', '').replace(',', ''))
+                gapStr = 'GAP-' + str(resDict['Gap'])
         elif 'Problem' in line:
             problemID = int(splittedLine[splittedLine.index('Problem') + 1])
             MMsolLength = 0
@@ -66,13 +80,10 @@ for filename in filenames:
                     resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
             algos2Check = ['MBBDS', 'A*+IDA*(', 'A*+IDA*_Reverse(', 'MM+IDMM', 'A*+IDMM', 'IDMM']
             if 'length' in line and not line.startswith('MM ') and not line.startswith('A* '):
-                # for algo2Check in algos2Check:
-                    # if algo2Check in resDict['Algorithm']:
                 solLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
                 realSolLength = max(AsolLength, MMsolLength)
                 if solLength not in [AsolLength, MMsolLength]:
                     isError = True
-                    # break
             else:
                 resDict['Memory'] = '-'
             if 'fail' in line:
@@ -104,41 +115,59 @@ for filename in filenames:
                 errorsDF = errorsDF.append(errorsDict, ignore_index=True)
 
     resultsDF = resultsDF[cols]
-    resultsDF.to_csv(fileName + '_results.csv')
+    resultsDF.to_csv(path + fileName + '_results.csv')
     errorsDF.drop_duplicates(inplace=True)
     if len(errorsDF) > 0:
         errorsDF.sort_values(['Number Of Pancakes', 'Gap', 'Problem ID', 'Algorithm', 'Memory'], ascending=True,
                              inplace=True)
         errorsDF = errorsDF[errorCols]
-    errorsDF.to_csv(fileName + '_errors.csv')
-
-    analysisCols = ['Gap', 'Algorithm', 'Failed(Out Of 100)', 'Mean Expansions', 'Mean Necessary Expansions',
-                    'Mean Iterations', 'Mean Runtime(Seconds)']
+    errorsDF.to_csv(path + fileName + '_errors.csv')
     analysisDF = pd.DataFrame()
     analysisDict = dict.fromkeys(analysisCols)
     MBBDSFailSum = None
     failedRows = (resultsDF['Status'] == 0)
-    for gap in resultsDF['Gap'].unique():
-        analysisDict['Gap'] = gap
-        gapRows = (resultsDF['Gap'] == gap)
+    if res_dir == 'PancakeSorting':
+        for gap in resultsDF['Gap'].unique():
+            analysisDict['Gap'] = gap
+            gapRows = (resultsDF['Gap'] == gap)
+            finished_problems_Rows = (resultsDF['Problem ID'].isin(
+                set(resultsDF[gapRows]['Problem ID']) - set(resultsDF[gapRows & (failedRows)]['Problem ID'])))
+            for algo in resultsDF['Algorithm'].unique():
+                analysisDict['Algorithm'] = algo
+                algoRows = (resultsDF['Algorithm'] == algo)
+                if MBBDSFailSum == algo:
+                    analysisDict['Failed(Out Of 100)'] += len(resultsDF[gapRows & algoRows & failedRows])
+                else:
+                    analysisDict['Failed(Out Of 100)'] = len(resultsDF[gapRows & algoRows & failedRows])
+                analysisDict['Mean Expansions'] = int(
+                    np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['States Expanded']))
+                analysisDict['Mean Necessary Expansions'] = int(
+                    np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Necessary Expansions']))
+                analysisDict['Mean Iterations'] = int(
+                    np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Iterations']))
+                analysisDict['Mean Runtime(Seconds)'] = round(
+                    np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Runtime(seconds)']), 3)
+                analysisDF = analysisDF.append(analysisDict, ignore_index=True)
+                MBBDSFailSum = algo
+    else:
         finished_problems_Rows = (resultsDF['Problem ID'].isin(
-            set(resultsDF[gapRows]['Problem ID']) - set(resultsDF[gapRows & (failedRows)]['Problem ID'])))
+            set(resultsDF['Problem ID']) - set(resultsDF[failedRows]['Problem ID'])))
         for algo in resultsDF['Algorithm'].unique():
             analysisDict['Algorithm'] = algo
             algoRows = (resultsDF['Algorithm'] == algo)
             if MBBDSFailSum == algo:
-                analysisDict['Failed(Out Of 100)'] += len(resultsDF[gapRows & algoRows & failedRows])
+                analysisDict['Failed(Out Of 100)'] += len(resultsDF[algoRows & failedRows])
             else:
-                analysisDict['Failed(Out Of 100)'] = len(resultsDF[gapRows & algoRows & failedRows])
+                analysisDict['Failed(Out Of 100)'] = len(resultsDF[algoRows & failedRows])
             analysisDict['Mean Expansions'] = int(
-                np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['States Expanded']))
+                np.mean(resultsDF[algoRows & finished_problems_Rows]['States Expanded']))
             analysisDict['Mean Necessary Expansions'] = int(
-                np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Necessary Expansions']))
+                np.mean(resultsDF[algoRows & finished_problems_Rows]['Necessary Expansions']))
             analysisDict['Mean Iterations'] = int(
-                np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Iterations']))
+                np.mean(resultsDF[algoRows & finished_problems_Rows]['Iterations']))
             analysisDict['Mean Runtime(Seconds)'] = round(
-                np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Runtime(seconds)']), 3)
+                np.mean(resultsDF[algoRows & finished_problems_Rows]['Runtime(seconds)']), 3)
             analysisDF = analysisDF.append(analysisDict, ignore_index=True)
             MBBDSFailSum = algo
 
-    analysisDF[analysisCols].to_csv(fileName + '_analysis.csv')
+    analysisDF[analysisCols].to_csv(path + fileName + '_analysis.csv')
