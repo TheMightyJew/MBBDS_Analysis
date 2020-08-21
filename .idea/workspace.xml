@@ -6,25 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d91ea629-f3a3-4b22-8028-c36c50e30e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/full_pancake10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/full_pancake12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/full_pancake8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analysis/STP/stp_10_120.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_pancake.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/16_pancake.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_pancake_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/16_pancake_analysis.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16_pancake_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/16_pancake_results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results_parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/results_parsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub_optimal_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/sub_optimal_results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub_optimal_results_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/sub_optimal_results_analysis.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub_optimal_results_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/sub_optimal_results_results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/three_phase_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/three_phase_results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/three_phase_results_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/three_phase_results_analysis.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/three_phase_results_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/three_phase_results_results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_phase_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/two_phase_results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/two_phase_results_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/two_phase_results_analysis.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/two_phase_results_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/two_phase_results_results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uni_bi_comp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/uni_bi_comp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uni_bi_comp_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/uni_bi_comp_analysis.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uni_bi_comp_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis/PancakeSorting/uni_bi_comp_results.csv" afterDir="false" />
     </list>
@@ -56,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Analysis/STP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Analysis/PancakeSorting" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -66,6 +57,7 @@
       <recent name="C:\Coding\Python\MBBDS_Analysis" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Coding\Python\MBBDS_Analysis\Analysis\PancakeSorting" />
       <recent name="C:\Coding\Python\MBBDS_Analysis\Analysis\STP" />
       <recent name="C:\Coding\Python\MBBDS_Analysis" />
     </key>
@@ -169,7 +161,11 @@
       <workItem from="1597131764931" duration="10000" />
       <workItem from="1597134810419" duration="2459000" />
       <workItem from="1597148110858" duration="655000" />
-      <workItem from="1597607639443" duration="1422000" />
+      <workItem from="1597607639443" duration="1649000" />
+      <workItem from="1597642095210" duration="184000" />
+      <workItem from="1597787100697" duration="2112000" />
+      <workItem from="1597857773809" duration="2505000" />
+      <workItem from="1597937243157" duration="4202000" />
     </task>
     <task id="LOCAL-00001" summary="analysis">
       <created>1588266401276</created>
@@ -248,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597137921550</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added support for STP">
+      <created>1597609158315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597609158315</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,9 +305,14 @@
     <MESSAGE value="added results files" />
     <MESSAGE value="files list" />
     <MESSAGE value="fixed algos2check" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed algos2check" />
+    <MESSAGE value="added support for STP" />
+    <option name="LAST_COMMIT_MESSAGE" value="added support for STP" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="508" y="236" key="#Notifications" timestamp="1597609184502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1597609184501" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596302499123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -317,71 +325,60 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="26" y="190" width="488" height="582" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1597608323626" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1597137920627">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1597609156930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597137920627" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597609156930" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1589355484804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589355484804" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1597608388811">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1598004096833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596050053513" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1597608388811">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598004096833" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1598004096833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596050053513" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1597608388811">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598004096833" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1598004096833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596050053513" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1597608388811">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598004096833" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1598004096833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596050053513" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state width="1493" height="130" key="GridCell.Tab.1.bottom" timestamp="1597608388811">
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598004096833" />
+    <state width="1493" height="234" key="GridCell.Tab.1.bottom" timestamp="1598002520234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state width="1493" height="130" key="GridCell.Tab.1.center" timestamp="1597608388811">
+    <state width="1493" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598002520234" />
+    <state width="1493" height="234" key="GridCell.Tab.1.center" timestamp="1598002520234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state width="1493" height="130" key="GridCell.Tab.1.left" timestamp="1597608388811">
+    <state width="1493" height="234" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598002520234" />
+    <state width="1493" height="234" key="GridCell.Tab.1.left" timestamp="1598002520234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state width="1493" height="130" key="GridCell.Tab.1.right" timestamp="1597608388811">
+    <state width="1493" height="234" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598002520234" />
+    <state width="1493" height="234" key="GridCell.Tab.1.right" timestamp="1598002520234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597608388811" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597137922905">
+    <state width="1493" height="234" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598002520234" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597609161124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597137922905" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597609161124" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594125160113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594125160113" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/results_parsing.py</url>
-          <line>161</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MBBDS_Analysis$results_parsing.coverage" NAME="results_parsing Coverage Results" MODIFIED="1597608388800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MBBDS_Analysis$results_parsing.coverage" NAME="results_parsing Coverage Results" MODIFIED="1598004096826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

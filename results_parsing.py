@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 
 analysis_dir = 'Analysis'
-res_dir = 'STP'
+res_dir = 'PancakeSorting'
 path = analysis_dir + '/' + res_dir + '/'
-filenames = ['stp_10_120']
+filenames = ['results_21-08-2020_12-56-19']
 for filename in filenames:
     fileName = filename.replace('.txt', '')
     file = open(path + fileName + ".txt", "r")
@@ -72,13 +72,16 @@ for filename in filenames:
             if line.startswith('A* found'):
                 AsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
             if 'memory' in line:
-                if 'MBBDS' in resDict['Algorithm'] or '+' in resDict['Algorithm']:
+                if 'MBBDS' in resDict['Algorithm'] or '+' in resDict['Algorithm'] or 'BAI' in resDict['Algorithm']:
                     memoryStr = 'Memory_Percentage='
                     resDict['Memory'] = int(splittedLine[splittedLine.index('memory') + 2])
                     resDict['Algorithm'] += '(' + line[line.index(memoryStr) + len(memoryStr):][:4] + ')'
                 else:
-                    resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
-            algos2Check = ['MBBDS', 'A*+IDA*(', 'A*+IDA*_Reverse(', 'MM+IDMM', 'A*+IDMM', 'IDMM']
+                    try:
+                        resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
+                    except:
+                        a=1
+            algos2Check = ['MBBDS', 'A*+IDA*(', 'A*+IDA*_Reverse(', 'MM+IDMM', 'A*+IDMM', 'IDMM', 'BAI']
             if 'length' in line and not line.startswith('MM ') and not line.startswith('A* '):
                 solLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
                 realSolLength = max(AsolLength, MMsolLength)
@@ -146,7 +149,7 @@ for filename in filenames:
                 analysisDict['Mean Iterations'] = int(
                     np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Iterations']))
                 analysisDict['Mean Runtime(Seconds)'] = round(
-                    np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Runtime(seconds)']), 3)
+                    np.mean(resultsDF[gapRows & algoRows & finished_problems_Rows]['Runtime(seconds)']), 5)
                 analysisDF = analysisDF.append(analysisDict, ignore_index=True)
                 MBBDSFailSum = algo
     else:
@@ -166,7 +169,7 @@ for filename in filenames:
             analysisDict['Mean Iterations'] = int(
                 np.mean(resultsDF[algoRows & finished_problems_Rows]['Iterations']))
             analysisDict['Mean Runtime(Seconds)'] = round(
-                np.mean(resultsDF[algoRows & finished_problems_Rows]['Runtime(seconds)']), 3)
+                np.mean(resultsDF[algoRows & finished_problems_Rows]['Runtime(seconds)']), 5)
             analysisDF = analysisDF.append(analysisDict, ignore_index=True)
             MBBDSFailSum = algo
 
