@@ -1,11 +1,17 @@
 import pandas as pd
 import numpy as np
-
+import sys
 analysis_dir = 'Analysis'
-res_dir = 'PancakeSorting'
+res_dir = 'Grid'
 path = analysis_dir + '/' + res_dir + '/'
-filenames = ['results_21-08-2020_12-56-19']
+filename = ''
+try:
+    filename = sys.argv[1]
+    filenames = [filename]
+except:
+    filenames = ['grid_results.txt']
 for filename in filenames:
+    filename = str(filename)
     fileName = filename.replace('.txt', '')
     file = open(path + fileName + ".txt", "r")
     if res_dir == 'PancakeSorting':
@@ -16,7 +22,9 @@ for filename in filenames:
         cols = []
         errorCols = []
         analysisCols = []
-    cols += ['Problem ID', 'Start state', 'Goal state', 'Initial Heuristic', 'Algorithm',
+    if res_dir != 'Grid':
+        cols += ['Start state', 'Goal state', 'Initial Heuristic']
+    cols += ['Problem ID', 'Algorithm',
              'Memory', 'Status', 'States Expanded', 'Necessary Expansions', 'Iterations', 'Runtime(seconds)']
     errorCols += ['Problem ID', 'Algorithm', 'Memory', 'Status', 'solLength',
                   'realSolLength']
@@ -47,12 +55,13 @@ for filename in filenames:
             solLength = 0
             realSolLength = 0
             resDict['Problem ID'] = problemID
-            line = next(file).replace('\t', '').replace('\n', '')
-            resDict['Start state'] = line[line.index(':') + 1:-1]
-            line = next(file).replace('\t', '').replace('\n', '')
-            resDict['Goal state'] = line[line.index(':') + 1:-1]
-            line = next(file).replace('\t', '').replace('\n', '')
-            resDict['Initial Heuristic'] = float(line[line.index('heuristic') + len('heuristic') + 1:])
+            if res_dir != 'Grid':
+                line = next(file).replace('\t', '').replace('\n', '')
+                resDict['Start state'] = line[line.index(':') + 1:-1]
+                line = next(file).replace('\t', '').replace('\n', '')
+                resDict['Goal state'] = line[line.index(':') + 1:-1]
+                line = next(file).replace('\t', '').replace('\n', '')
+                resDict['Initial Heuristic'] = float(line[line.index('heuristic') + len('heuristic') + 1:])
         else:
             if line[0] == line[-1] == '_' or 'completed' in line:
                 continue
@@ -72,7 +81,8 @@ for filename in filenames:
             if line.startswith('A* found'):
                 AsolLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
             if 'memory' in line:
-                if 'MBBDS' in resDict['Algorithm'] or '+' in resDict['Algorithm'] or 'BAI' in resDict['Algorithm']:
+                if 'MBBDS' in resDict['Algorithm'] or '+' in resDict['Algorithm'] or 'BAI' in resDict[
+                    'Algorithm'] or 'IDTHSpTrans' in resDict['Algorithm']:
                     memoryStr = 'Memory_Percentage='
                     resDict['Memory'] = int(splittedLine[splittedLine.index('memory') + 2])
                     resDict['Algorithm'] += '(' + line[line.index(memoryStr) + len(memoryStr):][:4] + ')'
@@ -80,8 +90,9 @@ for filename in filenames:
                     try:
                         resDict['Memory'] = float(splittedLine[splittedLine.index('using') + 1])
                     except:
-                        a=1
-            algos2Check = ['MBBDS', 'A*+IDA*(', 'A*+IDA*_Reverse(', 'MM+IDMM', 'A*+IDMM', 'IDMM', 'BAI']
+                        a = 1
+            algos2Check = ['MBBDS', 'A*+IDA*(', 'A*+IDA*_Reverse(', 'MM+IDMM', 'A*+IDMM', 'IDMM', 'BAI', 'IDTHSpTrans ',
+                           'IDTHSpTrans_NDD']
             if 'length' in line and not line.startswith('MM ') and not line.startswith('A* '):
                 solLength = float(splittedLine[splittedLine.index('length') + 1].replace(';', ''))
                 realSolLength = max(AsolLength, MMsolLength)
@@ -110,8 +121,15 @@ for filename in filenames:
                 algoName = resDict['Algorithm']
                 if '(' in algoName:
                     algoName = algoName[:algoName.index('(')]
-                errorsDict = {'Number Of Pancakes': resDict['Number Of Pancakes'], 'Gap': resDict['Gap'],
-                              'Problem ID': resDict['Problem ID'], 'Algorithm': algoName, 'Memory': resDict['Memory'],
+                if res_dir == 'PancakeSorting':
+                    errorsDict = {'Number Of Pancakes': resDict['Number Of Pancakes'], 'Gap': resDict['Gap'],
+                                  'Problem ID': resDict['Problem ID'], 'Algorithm': algoName,
+                                  'Memory': resDict['Memory'],
+                                  'Status': resDict['Status'],
+                                  'solLength': solLength,
+                                  'realSolLength': realSolLength}
+                else:
+                    errorsDict = {'Problem ID': resDict['Problem ID'], 'Algorithm': algoName, 'Memory': resDict['Memory'],
                               'Status': resDict['Status'],
                               'solLength': solLength,
                               'realSolLength': realSolLength}
@@ -121,8 +139,12 @@ for filename in filenames:
     resultsDF.to_csv(path + fileName + '_results.csv')
     errorsDF.drop_duplicates(inplace=True)
     if len(errorsDF) > 0:
-        errorsDF.sort_values(['Number Of Pancakes', 'Gap', 'Problem ID', 'Algorithm', 'Memory'], ascending=True,
+        if res_dir == 'PancakeSorting':
+            errorsDF.sort_values(['Number Of Pancakes', 'Gap', 'Problem ID', 'Algorithm', 'Memory'], ascending=True,
                              inplace=True)
+        else:
+            errorsDF.sort_values(['Problem ID', 'Algorithm', 'Memory'], ascending=True,
+                                 inplace=True)
         errorsDF = errorsDF[errorCols]
     errorsDF.to_csv(path + fileName + '_errors.csv')
     analysisDF = pd.DataFrame()
